@@ -1,0 +1,125 @@
+{
+	"info": {
+		"relation": {
+			"group": 0,
+			"priority": 1
+		},
+		"category": {
+			"hosts": [
+				".edu",
+				".idv"
+			],
+			"schemes": [
+				"ftps",
+				"magnet"
+			],
+			"file-exts": [
+				"torrent",
+				"metalink"
+			],
+			"active-limit": 3,
+			"finished-limit": 300,
+			"recycled-limit": 300
+		},
+		"common": {
+			"name": "New 0",
+			"folder": "\/home\/sgasg",
+			"connect-timeout": 15,
+			"transmit-timeout": 30,
+			"retry-delay": 6,
+			"retry-limit": 99,
+			"retry-count": 0,
+			"max-connections": 1,
+			"max-upload-speed": 0,
+			"max-download-speed": 0,
+			"timestamp": 1
+		}
+	},
+	"children": [
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"log": {
+					"added-time": 1723383356,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "Unsupported scheme (protocol).",
+							"type": 3,
+							"time": 1723383357
+						}
+					]
+				},
+				"common": {
+					"name": "Transport INC",
+					"uri": "magnet:?xt=urn:btih:72b4757e68e5b96f9f5a608c912135e6d00a1a2a&dn=Transport+INC",
+					"folder": "\/home\/sgasg",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		},
+		{
+			"info": {
+				"relation": {
+					"group": 33,
+					"priority": 1
+				},
+				"http": {
+					"redirection-limit": 30
+				},
+				"proxy": {
+					"port": 80,
+					"type": 0
+				},
+				"log": {
+					"added-time": 1723383368,
+					"completed-time": 0,
+					"messages": [
+						{
+							"string": "Unsupported scheme (protocol).",
+							"type": 3,
+							"time": 1723383368
+						}
+					]
+				},
+				"common": {
+					"name": "Bayonetta",
+					"uri": "magnet:?xt=urn:btih:9d4b442fa415257b8796c54bc4663fd8836c7e99&dn=Bayonetta",
+					"folder": "\/home\/sgasg",
+					"connect-timeout": 15,
+					"transmit-timeout": 30,
+					"retry-delay": 6,
+					"retry-limit": 99,
+					"retry-count": 0,
+					"max-connections": 16,
+					"max-upload-speed": 0,
+					"max-download-speed": 0,
+					"timestamp": 1
+				}
+			},
+			"children": [
+			]
+		}
+	]
+}
+

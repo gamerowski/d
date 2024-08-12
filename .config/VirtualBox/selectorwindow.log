@@ -1,0 +1,40 @@
+00:00:00.225333 VirtualBox GUI VM Selector Window 7.0.18_SUSE r162988 linux.amd64 (no date no time) release log
+00:00:00.225334 Log opened 2024-08-12T01:42:51.630333000Z
+00:00:00.225335 Build Type: release
+00:00:00.225336 OS Product: Linux
+00:00:00.225336 OS Release: 6.10.3-1-default
+00:00:00.225337 OS Version: #1 SMP PREEMPT_DYNAMIC Sun Aug  4 06:37:13 UTC 2024 (ba01e0e)
+00:00:00.225353 DMI Product Name: To Be Filled By O.E.M.
+00:00:00.225361 DMI Product Version: To Be Filled By O.E.M.
+00:00:00.225365 Firmware type: UEFI
+00:00:00.225406 Secure Boot: Disabled
+00:00:00.225428 Host RAM: 32020MB (31.2GB) total, 28018MB (27.3GB) available
+00:00:00.225429 Executable: /usr/lib/virtualbox/VirtualBox6
+00:00:00.225429 Process ID: 5323
+00:00:00.225430 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.225442 Qt version: 5.15.14
+00:00:00.225738 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.232588 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.567305 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x32 x 1920x998
+00:00:00.572572 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1920x0 x 1920x1030
+00:00:00.582234 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:31.446121 GUI: UIMediumEnumerator: Medium with key={{d17a4d55-6df2-4b0a-9216-bcd7572bdeb8}} created
+00:01:31.523454 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:34.277581 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:41.203998 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:47.735993 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:48.970963 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:28.705036 GUI: UIMediumEnumerator: Medium with key={{612725f6-bee4-4bd4-bb9f-e918bd46542f}} created
+00:02:28.778162 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:31.107207 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:02:34.883519 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:05:04.651912 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:01.204260 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:01.225171 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:10.336661 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:10.535076 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:11:18.779091 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:13:24.730309 GUI: UICommon: Commit data request...
+00:13:25.580324 GUI: UICommon: Commit data request...
+00:13:25.588545 GUI: UICommon: Handling aboutToQuit request..
+00:13:25.898301 GUI: UICommon: aboutToQuit request handled!

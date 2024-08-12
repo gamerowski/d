@@ -1,0 +1,15 @@
+autologin.username="gamerowski"
+autologin.saved_credentials="{\"gamerowski\":[\"gamerowski\",\"4aLyFOTz8tHTfYB5YfVg9GKeEMPesHtNx39RfLJ899usHQvT8MFP3b7ikOszTNCVyaIuwdjD/FOmbD8u53UsMAW3pjhPq9QB7aaPlrIkwoxdHYQBCq8WL17X5Q9ryvBa/eEui7rs0SJjeqlWXrMLYBzj6OZU2oSm3h6uPvNI4no8XB3KRTyO9lL/ySenUmWGit7uW2nY6C78eSimZLuGD7lwP8tJUDJE6SotTapVJe0qiYmjk+comFVNO+DkmQgNb6iHqUZ83MJCvpWfK5SKkI9tjVISoYIbZZNrCpHrXpk=\"]}"
+autologin.blob="4aLyFOTz8tHTfYB5YfVg9GKeEMPesHtNx39RfLJ899usHQvT8MFP3b7ikOszTNCVyaIuwdjD/FOmbD8u53UsMAW3pjhPq9QB7aaPlrIkwoxdHYQBCq8WL17X5Q9ryvBa/eEui7rs0SJjeqlWXrMLYBzj6OZU2oSm3h6uPvNI4no8XB3KRTyO9lL/ySenUmWGit7uW2nY6C78eSimZLuGD7lwP8tJUDJE6SotTapVJe0qiYmjk+comFVNO+DkmQgNb6iHqUZ83MJCvpWfK5SKkI9tjVISoYIbZZNrCpHrXpk="
+es.send-on-startup=true
+core.clock_delta=0
+autologin.canonical_username="gamerowski"
+app.window.position.x=1920
+app.enable-chrome-runtime=true
+app.window.position.saved=true
+app.window.position.height=993
+app.window.position.y=37
+storage.last-location="/home/sgasg/.cache/spotify/Storage"
+app.window.state.saved=true
+app.window.position.width=1920
+app.last-launched-version="1.2.40.599.g606b7f29"

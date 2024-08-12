@@ -1,0 +1,1120 @@
+02:09:15.771: Platform: Wayland
+02:09:15.771: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+02:09:15.771: CPU Speed: 3939.784MHz
+02:09:15.771: Physical Cores: 6, Logical Cores: 12
+02:09:15.771: Physical Memory: 15916MB Total, 1475MB Free
+02:09:15.771: Kernel Version: Linux 6.9.7-1-default
+02:09:15.771: Distribution: "openSUSE Tumbleweed" "20240711"
+02:09:15.771: Desktop Environment: GNOME (default)
+02:09:15.771: Session Type: wayland
+02:09:15.773: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+02:09:15.773: Portable mode: false
+02:09:15.803: OBS 30.2.0 (linux)
+02:09:15.803: ---------------------------------
+02:09:15.804: ---------------------------------
+02:09:15.804: audio settings reset:
+02:09:15.804: 	samples per sec: 48000
+02:09:15.804: 	speakers:        2
+02:09:15.804: 	max buffering:   960 milliseconds
+02:09:15.804: 	buffering type:  dynamically increasing
+02:09:15.813: ---------------------------------
+02:09:15.813: Initializing OpenGL...
+02:09:15.813: Using EGL/Wayland
+02:09:15.825: Initialized EGL 1.5
+02:09:15.845: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070/PCIe/SSE2
+02:09:15.845: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+02:09:15.867: ---------------------------------
+02:09:15.867: video settings reset:
+02:09:15.867: 	base resolution:   1920x1080
+02:09:15.867: 	output resolution: 1920x1080
+02:09:15.867: 	downscale filter:  Bicubic
+02:09:15.867: 	fps:               60/1
+02:09:15.867: 	format:            NV12
+02:09:15.867: 	YUV mode:          Rec. 709/Partial
+02:09:15.868: NV12 texture support enabled
+02:09:15.868: P010 texture support not available
+02:09:15.869: Audio monitoring device:
+02:09:15.869: 	name: Domyślne
+02:09:15.869: 	id: default
+02:09:15.869: ---------------------------------
+02:09:15.882: Failed to load 'en-US' text for module: 'decklink-captions.so'
+02:09:15.894: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+02:09:15.906: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+02:09:15.906: Failed to initialize module 'decklink.so'
+02:09:16.198: [pipewire] Available capture sources:
+02:09:16.198: [pipewire]     - Monitor source
+02:09:16.198: [pipewire]     - Window source
+02:09:16.240: v4l2loopback not installed, virtual camera not registered
+02:09:16.255: [linux-vkcapture] plugin loaded successfully (version 1.5.0)
+02:09:16.272: [obs-browser]: Version 2.23.5
+02:09:16.272: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+02:09:16.404: NVENC supported
+02:09:16.405: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+02:09:16.405: FFmpeg VAAPI H264 encoding not supported
+02:09:16.405: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+02:09:16.405: FFmpeg VAAPI AV1 encoding not supported
+02:09:16.405: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+02:09:16.405: FFmpeg VAAPI HEVC encoding not supported
+02:09:16.561: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.0 | RPC Version: 1)
+02:09:16.561: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.7.2 | Qt version (run-time): 6.7.2
+02:09:16.561: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+02:09:16.565: [obs-websocket] [obs_module_load] Module loaded.
+02:09:16.631: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+02:09:16.631: ---------------------------------
+02:09:16.631:   Loaded Modules:
+02:09:16.631:     vlc-video.so
+02:09:16.631:     text-freetype2.so
+02:09:16.631:     sndio.so
+02:09:16.631:     rtmp-services.so
+02:09:16.631:     obs-websocket.so
+02:09:16.631:     obs-webrtc.so
+02:09:16.631:     obs-vst.so
+02:09:16.631:     obs-transitions.so
+02:09:16.631:     obs-qsv11.so
+02:09:16.631:     obs-outputs.so
+02:09:16.631:     obs-libfdk.so
+02:09:16.631:     obs-filters.so
+02:09:16.631:     obs-ffmpeg.so
+02:09:16.631:     obs-browser.so
+02:09:16.631:     linux-vkcapture.so
+02:09:16.631:     linux-v4l2.so
+02:09:16.631:     linux-pulseaudio.so
+02:09:16.631:     linux-pipewire.so
+02:09:16.631:     linux-capture.so
+02:09:16.631:     linux-alsa.so
+02:09:16.631:     image-source.so
+02:09:16.631:     frontend-tools.so
+02:09:16.631:     decklink-output-ui.so
+02:09:16.631:     decklink-captions.so
+02:09:16.631: ---------------------------------
+02:09:16.631: ---------------------------------
+02:09:16.631: Available Encoders:
+02:09:16.631:   Video Encoders:
+02:09:16.631: 	- ffmpeg_svt_av1 (SVT-AV1)
+02:09:16.631: 	- ffmpeg_aom_av1 (AOM AV1)
+02:09:16.631: 	- jim_nvenc (NVIDIA NVENC H.264)
+02:09:16.631: 	- jim_hevc_nvenc (NVIDIA NVENC HEVC)
+02:09:16.631: 	- jim_av1_nvenc (NVIDIA NVENC AV1)
+02:09:16.631:   Audio Encoders:
+02:09:16.631: 	- ffmpeg_aac (FFmpeg AAC)
+02:09:16.631: 	- ffmpeg_opus (FFmpeg Opus)
+02:09:16.631: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bitowy))
+02:09:16.631: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bitowy))
+02:09:16.631: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bitowy zmiennoprzecinkowy))
+02:09:16.631: 	- ffmpeg_alac (FFmpeg ALAC (24-bitowy))
+02:09:16.632: 	- ffmpeg_flac (FFmpeg FLAC (16-bitowy))
+02:09:16.632: 	- libfdk_aac (libfdk AAC)
+02:09:16.632: ==== Startup complete ===============================================
+02:09:16.633: Encoder ID 'obs_x264' not found
+02:09:16.659: All scene data cleared
+02:09:16.659: ------------------------------------------------
+02:09:16.660: pulse-input: Server name: 'pulseaudio 17.0'
+02:09:16.660: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+02:09:16.660: pulse-input: Started recording from 'audiorelay-speakers.monitor' (default)
+02:09:16.660: [Loaded global audio device]: 'Urządzenie audio'
+02:09:16.661: pulse-input: Server name: 'pulseaudio 17.0'
+02:09:16.661: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+02:09:16.661: pulse-input: Started recording from 'alsa_input.usb-HP__Inc_HyperX_SoloCast-00.analog-stereo' (default)
+02:09:16.661: [Loaded global audio device]: 'Mikrofon/Wejście liniowe'
+02:09:16.661: PipeWire initialized
+02:09:16.662: Switched to scene 'Scena'
+02:09:16.662: ------------------------------------------------
+02:09:16.662: Loaded scenes:
+02:09:16.662: - scene 'Scena':
+02:09:16.662:     - source: 'Przechwytywanie ekranu (PipeWire)' (pipewire-screen-capture-source)
+02:09:16.662: ------------------------------------------------
+02:09:16.708: [pipewire] Screencast session created
+02:09:16.716: [pipewire] Asking for monitor and window
+02:09:16.778: [pipewire] source selected, setting up screencast
+02:09:16.781: [pipewire] Server version: 1.2.0
+02:09:16.781: [pipewire] Library version: 1.2.0
+02:09:16.781: [pipewire] Header version: 1.2.0
+02:09:16.781: [pipewire] Created stream 0x55a0d573c840
+02:09:16.781: [pipewire] Stream 0x55a0d573c840 state: "connecting" (error: none)
+02:09:16.781: [pipewire] Playing stream 0x55a0d573c840
+02:09:16.782: [pipewire] Stream 0x55a0d573c840 state: "paused" (error: none)
+02:09:16.784: [pipewire] Negotiated format:
+02:09:16.784: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+02:09:16.784: [pipewire]     Modifier: 0x0
+02:09:16.784: [pipewire]     Size: 1920x1080
+02:09:16.784: [pipewire]     Framerate: 0/1
+02:09:16.790: [pipewire] Negotiated format:
+02:09:16.790: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+02:09:16.790: [pipewire]     Modifier: 0x300000000cdb014
+02:09:16.790: [pipewire]     Size: 1920x1080
+02:09:16.790: [pipewire]     Framerate: 0/1
+02:09:16.803: [pipewire] Stream 0x55a0d573c840 state: "streaming" (error: none)
+02:10:39.691: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+02:10:39.691: Setting B-frames to 0
+02:10:39.691: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+02:10:39.691: [obs-nvenc: 'advanced_video_recording'] settings:
+02:10:39.691: 	codec:        HEVC
+02:10:39.691: 	rate_control: CQP
+02:10:39.691: 	bitrate:      0
+02:10:39.691: 	cqp:          16
+02:10:39.691: 	keyint:       120
+02:10:39.691: 	preset:       p7
+02:10:39.691: 	tuning:       hq
+02:10:39.691: 	multipass:    fullres
+02:10:39.691: 	profile:      main
+02:10:39.691: 	width:        1920
+02:10:39.691: 	height:       1080
+02:10:39.691: 	b-frames:     0
+02:10:39.691: 	lookahead:    false
+02:10:39.691: 	psycho_aq:    true
+02:10:39.691: 
+02:10:39.705: libfdk_aac encoder created
+02:10:39.705: libfdk_aac bitrate: 160, channels: 2
+02:10:39.724: ==== Replay Buffer Start ===========================================
+02:10:51.363:   OpenType support missing for "Open Sans", script 11
+02:10:51.372:   OpenType support missing for "Efont Biwidth", script 11
+02:10:51.372:   OpenType support missing for "Roboto", script 11
+02:10:51.377:   OpenType support missing for "Open Sans", script 12
+02:10:51.379:   OpenType support missing for "Roboto", script 12
+02:10:51.379:   OpenType support missing for "Noto Sans", script 12
+02:10:51.379:   OpenType support missing for "Noto Sans Symbols", script 12
+02:10:51.379:   OpenType support missing for "Liberation Sans", script 12
+02:10:51.379:   OpenType support missing for "Cantarell", script 12
+02:10:51.380:   OpenType support missing for "Luxi Sans", script 12
+02:10:51.380:   OpenType support missing for "DejaVu Sans", script 12
+02:10:51.381:   OpenType support missing for "Poppins", script 12
+02:10:51.382:   OpenType support missing for "Source Sans 3", script 12
+02:10:51.383:   OpenType support missing for "Source Serif Pro", script 12
+02:10:51.383:   OpenType support missing for "DejaVu Math TeX Gyre", script 12
+02:10:51.385:   OpenType support missing for "DejaVu Sans Mono", script 12
+02:10:51.387:   OpenType support missing for "DejaVu Serif", script 12
+02:10:51.387:   OpenType support missing for "Roboto Condensed", script 12
+02:10:51.387:   OpenType support missing for "Liberation Mono", script 12
+02:10:51.388:   OpenType support missing for "Liberation Serif", script 12
+02:10:51.388:   OpenType support missing for "Source Sans Pro", script 12
+02:10:51.388:   OpenType support missing for "Source Code Pro", script 12
+02:10:51.389:   OpenType support missing for "Noto Sans Symbols 2", script 12
+02:10:51.389:   OpenType support missing for "Noto Sans CJK JP", script 12
+02:10:51.390:   OpenType support missing for "Noto Sans CJK KR", script 12
+02:10:51.391:   OpenType support missing for "Noto Sans CJK SC", script 12
+02:10:51.393:   OpenType support missing for "Noto Sans CJK TC", script 12
+02:10:51.393:   OpenType support missing for "Bitstream Charter", script 12
+02:10:51.394:   OpenType support missing for "Courier 10 Pitch", script 12
+02:10:51.394:   OpenType support missing for "OCR A", script 12
+02:10:51.394:   OpenType support missing for "Luxi Mono", script 12
+02:10:51.395:   OpenType support missing for "Luxi Serif", script 12
+02:10:51.405:   OpenType support missing for "Carlito", script 12
+02:10:51.409:   OpenType support missing for "STIXGeneral", script 12
+02:10:51.409:   OpenType support missing for "Courier", script 12
+02:10:51.411:   OpenType support missing for "Utopia", script 12
+02:10:51.411:   OpenType support missing for "Special Elite", script 12
+02:10:51.411:   OpenType support missing for "Classic Console", script 12
+02:10:51.412:   OpenType support missing for "East Syriac Adiabene", script 12
+02:10:51.412:   OpenType support missing for "Estrangelo Antioch", script 12
+02:10:51.413:   OpenType support missing for "Serto Batnan", script 12
+02:10:51.413:   OpenType support missing for "East Syriac Ctesiphon", script 12
+02:10:51.413:   OpenType support missing for "Estrangelo Edessa", script 12
+02:10:51.414:   OpenType support missing for "Serto Jerusalem", script 12
+02:10:51.414:   OpenType support missing for "Serto Jerusalem Outline", script 12
+02:10:51.414:   OpenType support missing for "Serto Kharput", script 12
+02:10:51.414:   OpenType support missing for "Serto Malankara", script 12
+02:10:51.415:   OpenType support missing for "Serto Mardin", script 12
+02:10:51.416:   OpenType support missing for "Estrangelo Midyat", script 12
+02:10:51.416:   OpenType support missing for "Estrangelo Nisibin", script 12
+02:10:51.417:   OpenType support missing for "Estrangelo Nisibin Outline", script 12
+02:10:51.417:   OpenType support missing for "Estrangelo Quenneshrin", script 12
+02:10:51.418:   OpenType support missing for "Estrangelo Talada", script 12
+02:10:51.419:   OpenType support missing for "Estrangelo TurAbdin", script 12
+02:10:51.419:   OpenType support missing for "Serto Urhoy", script 12
+02:10:51.419:   OpenType support missing for "gallant12x22", script 12
+02:10:51.420:   OpenType support missing for "Goha-Tibeb Zemen", script 12
+02:10:51.420:   OpenType support missing for "Cursor", script 12
+02:10:51.421:   OpenType support missing for "Adobe Utopia", script 12
+02:10:51.421:   OpenType support missing for "Courier-converted", script 12
+02:10:51.421:   OpenType support missing for "Helvetica-converted", script 12
+02:10:51.422:   OpenType support missing for "Adobe Courier", script 12
+02:10:51.423:   OpenType support missing for "Adobe Helvetica", script 12
+02:10:51.424:   OpenType support missing for "B&H LucidaBright", script 12
+02:10:51.424:   OpenType support missing for "Adobe New Century Schoolbook", script 12
+02:10:51.425:   OpenType support missing for "Adobe Times", script 12
+02:10:51.426:   OpenType support missing for "Misc Fixed", script 12
+02:10:51.432:   OpenType support missing for "Efont Biwidth", script 12
+02:10:51.432:   OpenType support missing for "Schumacher Clean", script 12
+02:10:51.433:   OpenType support missing for "Efont Fixed", script 12
+02:10:51.450:   OpenType support missing for "Efont Fixed Wide", script 12
+02:10:51.451:   OpenType support missing for "B&H Lucida", script 12
+02:10:51.452:   OpenType support missing for "B&H LucidaTypewriter", script 12
+02:10:51.453:   OpenType support missing for "Adobe Symbol", script 12
+02:10:51.457:   OpenType support missing for "Misc Fixed Wide", script 12
+02:10:51.458:   OpenType support missing for "DEC Terminal", script 12
+02:10:51.458:   OpenType support missing for "ETL Fixed", script 12
+02:10:51.459:   OpenType support missing for "Sony Fixed", script 12
+02:10:51.459:   OpenType support missing for "Daewoo Gothic Wide", script 12
+02:10:51.459:   OpenType support missing for "Daewoo Mincho Wide", script 12
+02:10:51.460:   OpenType support missing for "ISAS Fangsong ti Wide", script 12
+02:10:51.463:   OpenType support missing for "ISAS Song ti Wide", script 12
+02:10:51.463:   OpenType support missing for "JIS Fixed Wide", script 12
+02:10:51.465:   OpenType support missing for "MUTT ClearlyU Wide", script 12
+02:10:51.465:   OpenType support missing for "Schumacher Clean Wide", script 12
+02:10:51.466:   OpenType support missing for "MUTT ClearlyU Alternate Glyphs Wide", script 12
+02:10:51.466:   OpenType support missing for "MUTT ClearlyU PUA", script 12
+02:10:51.467:   OpenType support missing for "MUTT ClearlyU Arabic Extra", script 12
+02:10:51.467:   OpenType support missing for "Bitstream Terminal", script 12
+02:10:51.468:   OpenType support missing for "micro.pcf", script 12
+02:10:51.469:   OpenType support missing for "Arabic Newspaper", script 12
+02:10:51.470:   OpenType support missing for "cursor.pcf", script 12
+02:10:51.471:   OpenType support missing for "deccurs.pcf", script 12
+02:10:51.472:   OpenType support missing for "decsess.pcf", script 12
+02:10:51.473:   OpenType support missing for "Noto Color Emoji", script 12
+02:10:51.473:   OpenType support missing for "", script 12
+02:10:51.473:   OpenType support missing for "", script 12
+02:10:51.474:   OpenType support missing for "", script 12
+02:10:51.474:   OpenType support missing for "", script 12
+02:10:51.474:   OpenType support missing for "", script 12
+02:10:51.474:   OpenType support missing for "", script 12
+02:10:51.475:   OpenType support missing for "", script 12
+02:10:51.475:   OpenType support missing for "", script 12
+02:10:51.475:   OpenType support missing for "", script 12
+02:10:51.476:   OpenType support missing for "", script 12
+02:10:51.476:   OpenType support missing for "", script 12
+02:10:51.476:   OpenType support missing for "", script 12
+02:10:51.477:   OpenType support missing for "", script 12
+02:10:51.477:   OpenType support missing for "", script 12
+02:10:51.477:   OpenType support missing for "", script 12
+02:10:51.478:   OpenType support missing for "", script 12
+02:10:51.478:   OpenType support missing for "", script 12
+02:10:51.478:   OpenType support missing for "", script 12
+02:10:51.479:   OpenType support missing for "", script 12
+02:10:51.479:   OpenType support missing for "", script 12
+02:10:51.480:   OpenType support missing for "", script 12
+02:10:51.480:   OpenType support missing for "", script 12
+02:10:51.480:   OpenType support missing for "", script 12
+02:10:51.481:   OpenType support missing for "", script 12
+02:10:51.481:   OpenType support missing for "", script 12
+02:10:51.481:   OpenType support missing for "", script 12
+02:10:51.482:   OpenType support missing for "", script 12
+02:10:51.482:   OpenType support missing for "", script 12
+02:10:51.482:   OpenType support missing for "", script 12
+02:10:51.482:   OpenType support missing for "", script 12
+02:10:51.483:   OpenType support missing for "", script 12
+02:10:51.503: Last log entry repeated for 47 more lines
+02:10:51.503:   OpenType support missing for "Cantarell", script 12
+02:10:51.505:   OpenType support missing for "Roboto", script 12
+02:10:51.505:   OpenType support missing for "Noto Sans", script 12
+02:10:51.505:   OpenType support missing for "Noto Sans Symbols", script 12
+02:10:51.505:   OpenType support missing for "Liberation Sans", script 12
+02:10:51.506:   OpenType support missing for "Luxi Sans", script 12
+02:10:51.506:   OpenType support missing for "DejaVu Sans", script 12
+02:10:51.506:   OpenType support missing for "Poppins", script 12
+02:10:51.507:   OpenType support missing for "Source Sans 3", script 12
+02:10:51.507:   OpenType support missing for "Open Sans", script 12
+02:10:51.507:   OpenType support missing for "Source Serif Pro", script 12
+02:10:51.507:   OpenType support missing for "DejaVu Math TeX Gyre", script 12
+02:10:51.507:   OpenType support missing for "DejaVu Sans Mono", script 12
+02:10:51.508:   OpenType support missing for "DejaVu Serif", script 12
+02:10:51.508:   OpenType support missing for "Roboto Condensed", script 12
+02:10:51.508:   OpenType support missing for "Liberation Mono", script 12
+02:10:51.509:   OpenType support missing for "Liberation Serif", script 12
+02:10:51.509:   OpenType support missing for "Source Sans Pro", script 12
+02:10:51.509:   OpenType support missing for "Source Code Pro", script 12
+02:10:51.509:   OpenType support missing for "Noto Sans Symbols 2", script 12
+02:10:51.510:   OpenType support missing for "Noto Sans CJK JP", script 12
+02:10:51.510:   OpenType support missing for "Noto Sans CJK KR", script 12
+02:10:51.511:   OpenType support missing for "Noto Sans CJK SC", script 12
+02:10:51.511:   OpenType support missing for "Noto Sans CJK TC", script 12
+02:10:51.511:   OpenType support missing for "Bitstream Charter", script 12
+02:10:51.511:   OpenType support missing for "Courier 10 Pitch", script 12
+02:10:51.512:   OpenType support missing for "OCR A", script 12
+02:10:51.512:   OpenType support missing for "Luxi Mono", script 12
+02:10:51.513:   OpenType support missing for "Luxi Serif", script 12
+02:10:51.513:   OpenType support missing for "Carlito", script 12
+02:10:51.513:   OpenType support missing for "STIXGeneral", script 12
+02:10:51.513:   OpenType support missing for "Courier", script 12
+02:10:51.514:   OpenType support missing for "Utopia", script 12
+02:10:51.514:   OpenType support missing for "Special Elite", script 12
+02:10:51.514:   OpenType support missing for "Classic Console", script 12
+02:10:51.515:   OpenType support missing for "East Syriac Adiabene", script 12
+02:10:51.515:   OpenType support missing for "Estrangelo Antioch", script 12
+02:10:51.515:   OpenType support missing for "Serto Batnan", script 12
+02:10:51.516:   OpenType support missing for "East Syriac Ctesiphon", script 12
+02:10:51.516:   OpenType support missing for "Estrangelo Edessa", script 12
+02:10:51.516:   OpenType support missing for "Serto Jerusalem", script 12
+02:10:51.517:   OpenType support missing for "Serto Jerusalem Outline", script 12
+02:10:51.517:   OpenType support missing for "Serto Kharput", script 12
+02:10:51.517:   OpenType support missing for "Serto Malankara", script 12
+02:10:51.518:   OpenType support missing for "Serto Mardin", script 12
+02:10:51.518:   OpenType support missing for "Estrangelo Midyat", script 12
+02:10:51.518:   OpenType support missing for "Estrangelo Nisibin", script 12
+02:10:51.519:   OpenType support missing for "Estrangelo Nisibin Outline", script 12
+02:10:51.519:   OpenType support missing for "Estrangelo Quenneshrin", script 12
+02:10:51.519:   OpenType support missing for "Estrangelo Talada", script 12
+02:10:51.519:   OpenType support missing for "Estrangelo TurAbdin", script 12
+02:10:51.520:   OpenType support missing for "Serto Urhoy", script 12
+02:10:51.520:   OpenType support missing for "gallant12x22", script 12
+02:10:51.520:   OpenType support missing for "Goha-Tibeb Zemen", script 12
+02:10:51.521:   OpenType support missing for "Cursor", script 12
+02:10:51.521:   OpenType support missing for "Adobe Utopia", script 12
+02:10:51.521:   OpenType support missing for "Courier-converted", script 12
+02:10:51.522:   OpenType support missing for "Helvetica-converted", script 12
+02:10:51.522:   OpenType support missing for "Adobe Courier", script 12
+02:10:51.523:   OpenType support missing for "Adobe Helvetica", script 12
+02:10:51.523:   OpenType support missing for "B&H LucidaBright", script 12
+02:10:51.523:   OpenType support missing for "Adobe New Century Schoolbook", script 12
+02:10:51.524:   OpenType support missing for "Adobe Times", script 12
+02:10:51.524:   OpenType support missing for "Misc Fixed", script 12
+02:10:51.530:   OpenType support missing for "Efont Biwidth", script 12
+02:10:51.530:   OpenType support missing for "Schumacher Clean", script 12
+02:10:51.531:   OpenType support missing for "Efont Fixed", script 12
+02:10:51.537:   OpenType support missing for "Efont Fixed Wide", script 12
+02:10:51.538:   OpenType support missing for "B&H Lucida", script 12
+02:10:51.538:   OpenType support missing for "B&H LucidaTypewriter", script 12
+02:10:51.538:   OpenType support missing for "Adobe Symbol", script 12
+02:10:51.541:   OpenType support missing for "Misc Fixed Wide", script 12
+02:10:51.542:   OpenType support missing for "DEC Terminal", script 12
+02:10:51.542:   OpenType support missing for "ETL Fixed", script 12
+02:10:51.542:   OpenType support missing for "Sony Fixed", script 12
+02:10:51.543:   OpenType support missing for "Daewoo Gothic Wide", script 12
+02:10:51.543:   OpenType support missing for "Daewoo Mincho Wide", script 12
+02:10:51.543:   OpenType support missing for "ISAS Fangsong ti Wide", script 12
+02:10:51.544:   OpenType support missing for "ISAS Song ti Wide", script 12
+02:10:51.544:   OpenType support missing for "JIS Fixed Wide", script 12
+02:10:51.546:   OpenType support missing for "MUTT ClearlyU Wide", script 12
+02:10:51.546:   OpenType support missing for "Schumacher Clean Wide", script 12
+02:10:51.547:   OpenType support missing for "MUTT ClearlyU Alternate Glyphs Wide", script 12
+02:10:51.547:   OpenType support missing for "MUTT ClearlyU PUA", script 12
+02:10:51.547:   OpenType support missing for "MUTT ClearlyU Arabic Extra", script 12
+02:10:51.548:   OpenType support missing for "Bitstream Terminal", script 12
+02:10:51.549:   OpenType support missing for "micro.pcf", script 12
+02:10:51.549:   OpenType support missing for "Arabic Newspaper", script 12
+02:10:51.550:   OpenType support missing for "cursor.pcf", script 12
+02:10:51.551:   OpenType support missing for "deccurs.pcf", script 12
+02:10:51.552:   OpenType support missing for "decsess.pcf", script 12
+02:10:51.553:   OpenType support missing for "Noto Color Emoji", script 12
+02:10:51.553:   OpenType support missing for "", script 12
+02:10:51.553:   OpenType support missing for "", script 12
+02:10:51.554:   OpenType support missing for "", script 12
+02:10:51.554:   OpenType support missing for "", script 12
+02:10:51.554:   OpenType support missing for "", script 12
+02:10:51.554:   OpenType support missing for "", script 12
+02:10:51.555:   OpenType support missing for "", script 12
+02:10:51.555:   OpenType support missing for "", script 12
+02:10:51.555:   OpenType support missing for "", script 12
+02:10:51.556:   OpenType support missing for "", script 12
+02:10:51.556:   OpenType support missing for "", script 12
+02:10:51.556:   OpenType support missing for "", script 12
+02:10:51.557:   OpenType support missing for "", script 12
+02:10:51.557:   OpenType support missing for "", script 12
+02:10:51.557:   OpenType support missing for "", script 12
+02:10:51.557:   OpenType support missing for "", script 12
+02:10:51.558:   OpenType support missing for "", script 12
+02:10:51.558:   OpenType support missing for "", script 12
+02:10:51.558:   OpenType support missing for "", script 12
+02:10:51.559:   OpenType support missing for "", script 12
+02:10:51.559:   OpenType support missing for "", script 12
+02:10:51.559:   OpenType support missing for "", script 12
+02:10:51.560:   OpenType support missing for "", script 12
+02:10:51.560:   OpenType support missing for "", script 12
+02:10:51.560:   OpenType support missing for "", script 12
+02:10:51.561:   OpenType support missing for "", script 12
+02:10:51.561:   OpenType support missing for "", script 12
+02:10:51.561:   OpenType support missing for "", script 12
+02:10:51.562:   OpenType support missing for "", script 12
+02:10:51.562:   OpenType support missing for "", script 12
+02:10:51.562:   OpenType support missing for "", script 12
+02:10:51.577: Last log entry repeated for 48 more lines
+02:10:51.577:   OpenType support missing for "Open Sans", script 16
+02:10:51.579:   OpenType support missing for "Roboto", script 16
+02:10:51.579:   OpenType support missing for "Noto Sans", script 16
+02:10:51.579:   OpenType support missing for "Noto Sans Symbols", script 16
+02:10:51.580:   OpenType support missing for "Liberation Sans", script 16
+02:10:51.580:   OpenType support missing for "Cantarell", script 16
+02:10:51.580:   OpenType support missing for "Luxi Sans", script 16
+02:10:51.581:   OpenType support missing for "DejaVu Sans", script 16
+02:10:51.581:   OpenType support missing for "Poppins", script 16
+02:10:51.581:   OpenType support missing for "Source Sans 3", script 16
+02:10:51.582:   OpenType support missing for "Source Serif Pro", script 16
+02:10:51.582:   OpenType support missing for "DejaVu Math TeX Gyre", script 16
+02:10:51.582:   OpenType support missing for "DejaVu Sans Mono", script 16
+02:10:51.582:   OpenType support missing for "DejaVu Serif", script 16
+02:10:51.583:   OpenType support missing for "Roboto Condensed", script 16
+02:10:51.583:   OpenType support missing for "Liberation Mono", script 16
+02:10:51.583:   OpenType support missing for "Liberation Serif", script 16
+02:10:51.583:   OpenType support missing for "Source Sans Pro", script 16
+02:10:51.584:   OpenType support missing for "Source Code Pro", script 16
+02:10:51.584:   OpenType support missing for "Noto Sans Symbols 2", script 16
+02:10:51.584:   OpenType support missing for "Noto Sans CJK JP", script 16
+02:10:51.585:   OpenType support missing for "Noto Sans CJK KR", script 16
+02:10:51.585:   OpenType support missing for "Noto Sans CJK SC", script 16
+02:10:51.586:   OpenType support missing for "Noto Sans CJK TC", script 16
+02:10:51.586:   OpenType support missing for "Bitstream Charter", script 16
+02:10:51.586:   OpenType support missing for "Courier 10 Pitch", script 16
+02:10:51.586:   OpenType support missing for "OCR A", script 16
+02:10:51.587:   OpenType support missing for "Luxi Mono", script 16
+02:10:51.587:   OpenType support missing for "Luxi Serif", script 16
+02:10:51.587:   OpenType support missing for "Carlito", script 16
+02:10:51.588:   OpenType support missing for "STIXGeneral", script 16
+02:10:51.588:   OpenType support missing for "Courier", script 16
+02:10:51.588:   OpenType support missing for "Utopia", script 16
+02:10:51.589:   OpenType support missing for "Special Elite", script 16
+02:10:51.589:   OpenType support missing for "Classic Console", script 16
+02:10:51.589:   OpenType support missing for "East Syriac Adiabene", script 16
+02:10:51.590:   OpenType support missing for "Estrangelo Antioch", script 16
+02:10:51.590:   OpenType support missing for "Serto Batnan", script 16
+02:10:51.590:   OpenType support missing for "East Syriac Ctesiphon", script 16
+02:10:51.591:   OpenType support missing for "Estrangelo Edessa", script 16
+02:10:51.591:   OpenType support missing for "Serto Jerusalem", script 16
+02:10:51.591:   OpenType support missing for "Serto Jerusalem Outline", script 16
+02:10:51.591:   OpenType support missing for "Serto Kharput", script 16
+02:10:51.592:   OpenType support missing for "Serto Malankara", script 16
+02:10:51.592:   OpenType support missing for "Serto Mardin", script 16
+02:10:51.592:   OpenType support missing for "Estrangelo Midyat", script 16
+02:10:51.593:   OpenType support missing for "Estrangelo Nisibin", script 16
+02:10:51.593:   OpenType support missing for "Estrangelo Nisibin Outline", script 16
+02:10:51.593:   OpenType support missing for "Estrangelo Quenneshrin", script 16
+02:10:51.594:   OpenType support missing for "Estrangelo Talada", script 16
+02:10:51.594:   OpenType support missing for "Estrangelo TurAbdin", script 16
+02:10:51.594:   OpenType support missing for "Serto Urhoy", script 16
+02:10:51.595:   OpenType support missing for "gallant12x22", script 16
+02:10:51.595:   OpenType support missing for "Goha-Tibeb Zemen", script 16
+02:10:51.595:   OpenType support missing for "Cursor", script 16
+02:10:51.596:   OpenType support missing for "Adobe Utopia", script 16
+02:10:51.596:   OpenType support missing for "Courier-converted", script 16
+02:10:51.596:   OpenType support missing for "Helvetica-converted", script 16
+02:10:51.597:   OpenType support missing for "Adobe Courier", script 16
+02:10:51.597:   OpenType support missing for "Adobe Helvetica", script 16
+02:10:51.598:   OpenType support missing for "B&H LucidaBright", script 16
+02:10:51.598:   OpenType support missing for "Adobe New Century Schoolbook", script 16
+02:10:51.598:   OpenType support missing for "Adobe Times", script 16
+02:10:51.599:   OpenType support missing for "Misc Fixed", script 16
+02:10:51.605:   OpenType support missing for "Efont Biwidth", script 16
+02:10:51.605:   OpenType support missing for "Schumacher Clean", script 16
+02:10:51.606:   OpenType support missing for "Efont Fixed", script 16
+02:10:51.612:   OpenType support missing for "Efont Fixed Wide", script 16
+02:10:51.612:   OpenType support missing for "B&H Lucida", script 16
+02:10:51.613:   OpenType support missing for "B&H LucidaTypewriter", script 16
+02:10:51.613:   OpenType support missing for "Adobe Symbol", script 16
+02:10:51.616:   OpenType support missing for "Misc Fixed Wide", script 16
+02:10:51.617:   OpenType support missing for "DEC Terminal", script 16
+02:10:51.617:   OpenType support missing for "ETL Fixed", script 16
+02:10:51.617:   OpenType support missing for "Sony Fixed", script 16
+02:10:51.618:   OpenType support missing for "Daewoo Gothic Wide", script 16
+02:10:51.618:   OpenType support missing for "Daewoo Mincho Wide", script 16
+02:10:51.618:   OpenType support missing for "ISAS Fangsong ti Wide", script 16
+02:10:51.619:   OpenType support missing for "ISAS Song ti Wide", script 16
+02:10:51.619:   OpenType support missing for "JIS Fixed Wide", script 16
+02:10:51.621:   OpenType support missing for "MUTT ClearlyU Wide", script 16
+02:10:51.621:   OpenType support missing for "Schumacher Clean Wide", script 16
+02:10:51.622:   OpenType support missing for "MUTT ClearlyU Alternate Glyphs Wide", script 16
+02:10:51.622:   OpenType support missing for "MUTT ClearlyU PUA", script 16
+02:10:51.622:   OpenType support missing for "MUTT ClearlyU Arabic Extra", script 16
+02:10:51.623:   OpenType support missing for "Bitstream Terminal", script 16
+02:10:51.624:   OpenType support missing for "micro.pcf", script 16
+02:10:51.624:   OpenType support missing for "Arabic Newspaper", script 16
+02:10:51.625:   OpenType support missing for "cursor.pcf", script 16
+02:10:51.626:   OpenType support missing for "deccurs.pcf", script 16
+02:10:51.627:   OpenType support missing for "decsess.pcf", script 16
+02:10:51.628:   OpenType support missing for "Noto Color Emoji", script 16
+02:10:51.628:   OpenType support missing for "", script 16
+02:10:51.628:   OpenType support missing for "", script 16
+02:10:51.629:   OpenType support missing for "", script 16
+02:10:51.629:   OpenType support missing for "", script 16
+02:10:51.629:   OpenType support missing for "", script 16
+02:10:51.630:   OpenType support missing for "", script 16
+02:10:51.630:   OpenType support missing for "", script 16
+02:10:51.630:   OpenType support missing for "", script 16
+02:10:51.631:   OpenType support missing for "", script 16
+02:10:51.631:   OpenType support missing for "", script 16
+02:10:51.631:   OpenType support missing for "", script 16
+02:10:51.632:   OpenType support missing for "", script 16
+02:10:51.632:   OpenType support missing for "", script 16
+02:10:51.632:   OpenType support missing for "", script 16
+02:10:51.632:   OpenType support missing for "", script 16
+02:10:51.633:   OpenType support missing for "", script 16
+02:10:51.633:   OpenType support missing for "", script 16
+02:10:51.633:   OpenType support missing for "", script 16
+02:10:51.634:   OpenType support missing for "", script 16
+02:10:51.634:   OpenType support missing for "", script 16
+02:10:51.634:   OpenType support missing for "", script 16
+02:10:51.634:   OpenType support missing for "", script 16
+02:10:51.635:   OpenType support missing for "", script 16
+02:10:51.635:   OpenType support missing for "", script 16
+02:10:51.635:   OpenType support missing for "", script 16
+02:10:51.636:   OpenType support missing for "", script 16
+02:10:51.636:   OpenType support missing for "", script 16
+02:10:51.636:   OpenType support missing for "", script 16
+02:10:51.637:   OpenType support missing for "", script 16
+02:10:51.637:   OpenType support missing for "", script 16
+02:10:51.637:   OpenType support missing for "", script 16
+02:10:51.651: Last log entry repeated for 47 more lines
+02:10:51.651:   OpenType support missing for "Cantarell", script 16
+02:10:51.653:   OpenType support missing for "Roboto", script 16
+02:10:51.653:   OpenType support missing for "Noto Sans", script 16
+02:10:51.654:   OpenType support missing for "Noto Sans Symbols", script 16
+02:10:51.654:   OpenType support missing for "Liberation Sans", script 16
+02:10:51.654:   OpenType support missing for "Luxi Sans", script 16
+02:10:51.655:   OpenType support missing for "DejaVu Sans", script 16
+02:10:51.655:   OpenType support missing for "Poppins", script 16
+02:10:51.655:   OpenType support missing for "Source Sans 3", script 16
+02:10:51.656:   OpenType support missing for "Open Sans", script 16
+02:10:51.656:   OpenType support missing for "Source Serif Pro", script 16
+02:10:51.656:   OpenType support missing for "DejaVu Math TeX Gyre", script 16
+02:10:51.656:   OpenType support missing for "DejaVu Sans Mono", script 16
+02:10:51.657:   OpenType support missing for "DejaVu Serif", script 16
+02:10:51.657:   OpenType support missing for "Roboto Condensed", script 16
+02:10:51.657:   OpenType support missing for "Liberation Mono", script 16
+02:10:51.657:   OpenType support missing for "Liberation Serif", script 16
+02:10:51.658:   OpenType support missing for "Source Sans Pro", script 16
+02:10:51.658:   OpenType support missing for "Source Code Pro", script 16
+02:10:51.658:   OpenType support missing for "Noto Sans Symbols 2", script 16
+02:10:51.659:   OpenType support missing for "Noto Sans CJK JP", script 16
+02:10:51.659:   OpenType support missing for "Noto Sans CJK KR", script 16
+02:10:51.659:   OpenType support missing for "Noto Sans CJK SC", script 16
+02:10:51.660:   OpenType support missing for "Noto Sans CJK TC", script 16
+02:10:51.660:   OpenType support missing for "Bitstream Charter", script 16
+02:10:51.660:   OpenType support missing for "Courier 10 Pitch", script 16
+02:10:51.661:   OpenType support missing for "OCR A", script 16
+02:10:51.661:   OpenType support missing for "Luxi Mono", script 16
+02:10:51.662:   OpenType support missing for "Luxi Serif", script 16
+02:10:51.662:   OpenType support missing for "Carlito", script 16
+02:10:51.662:   OpenType support missing for "STIXGeneral", script 16
+02:10:51.662:   OpenType support missing for "Courier", script 16
+02:10:51.663:   OpenType support missing for "Utopia", script 16
+02:10:51.663:   OpenType support missing for "Special Elite", script 16
+02:10:51.663:   OpenType support missing for "Classic Console", script 16
+02:10:51.664:   OpenType support missing for "East Syriac Adiabene", script 16
+02:10:51.664:   OpenType support missing for "Estrangelo Antioch", script 16
+02:10:51.664:   OpenType support missing for "Serto Batnan", script 16
+02:10:51.665:   OpenType support missing for "East Syriac Ctesiphon", script 16
+02:10:51.665:   OpenType support missing for "Estrangelo Edessa", script 16
+02:10:51.665:   OpenType support missing for "Serto Jerusalem", script 16
+02:10:51.666:   OpenType support missing for "Serto Jerusalem Outline", script 16
+02:10:51.666:   OpenType support missing for "Serto Kharput", script 16
+02:10:51.666:   OpenType support missing for "Serto Malankara", script 16
+02:10:51.666:   OpenType support missing for "Serto Mardin", script 16
+02:10:51.667:   OpenType support missing for "Estrangelo Midyat", script 16
+02:10:51.667:   OpenType support missing for "Estrangelo Nisibin", script 16
+02:10:51.667:   OpenType support missing for "Estrangelo Nisibin Outline", script 16
+02:10:51.668:   OpenType support missing for "Estrangelo Quenneshrin", script 16
+02:10:51.668:   OpenType support missing for "Estrangelo Talada", script 16
+02:10:51.668:   OpenType support missing for "Estrangelo TurAbdin", script 16
+02:10:51.669:   OpenType support missing for "Serto Urhoy", script 16
+02:10:51.669:   OpenType support missing for "gallant12x22", script 16
+02:10:51.669:   OpenType support missing for "Goha-Tibeb Zemen", script 16
+02:10:51.670:   OpenType support missing for "Cursor", script 16
+02:10:51.670:   OpenType support missing for "Adobe Utopia", script 16
+02:10:51.670:   OpenType support missing for "Courier-converted", script 16
+02:10:51.671:   OpenType support missing for "Helvetica-converted", script 16
+02:10:51.671:   OpenType support missing for "Adobe Courier", script 16
+02:10:51.671:   OpenType support missing for "Adobe Helvetica", script 16
+02:10:51.672:   OpenType support missing for "B&H LucidaBright", script 16
+02:10:51.672:   OpenType support missing for "Adobe New Century Schoolbook", script 16
+02:10:51.673:   OpenType support missing for "Adobe Times", script 16
+02:10:51.673:   OpenType support missing for "Misc Fixed", script 16
+02:10:51.679:   OpenType support missing for "Efont Biwidth", script 16
+02:10:51.679:   OpenType support missing for "Schumacher Clean", script 16
+02:10:51.680:   OpenType support missing for "Efont Fixed", script 16
+02:10:51.686:   OpenType support missing for "Efont Fixed Wide", script 16
+02:10:51.686:   OpenType support missing for "B&H Lucida", script 16
+02:10:51.687:   OpenType support missing for "B&H LucidaTypewriter", script 16
+02:10:51.687:   OpenType support missing for "Adobe Symbol", script 16
+02:10:51.690:   OpenType support missing for "Misc Fixed Wide", script 16
+02:10:51.691:   OpenType support missing for "DEC Terminal", script 16
+02:10:51.691:   OpenType support missing for "ETL Fixed", script 16
+02:10:51.691:   OpenType support missing for "Sony Fixed", script 16
+02:10:51.692:   OpenType support missing for "Daewoo Gothic Wide", script 16
+02:10:51.692:   OpenType support missing for "Daewoo Mincho Wide", script 16
+02:10:51.692:   OpenType support missing for "ISAS Fangsong ti Wide", script 16
+02:10:51.693:   OpenType support missing for "ISAS Song ti Wide", script 16
+02:10:51.693:   OpenType support missing for "JIS Fixed Wide", script 16
+02:10:51.695:   OpenType support missing for "MUTT ClearlyU Wide", script 16
+02:10:51.695:   OpenType support missing for "Schumacher Clean Wide", script 16
+02:10:51.696:   OpenType support missing for "MUTT ClearlyU Alternate Glyphs Wide", script 16
+02:10:51.696:   OpenType support missing for "MUTT ClearlyU PUA", script 16
+02:10:51.696:   OpenType support missing for "MUTT ClearlyU Arabic Extra", script 16
+02:10:51.697:   OpenType support missing for "Bitstream Terminal", script 16
+02:10:51.698:   OpenType support missing for "micro.pcf", script 16
+02:10:51.698:   OpenType support missing for "Arabic Newspaper", script 16
+02:10:51.699:   OpenType support missing for "cursor.pcf", script 16
+02:10:51.700:   OpenType support missing for "deccurs.pcf", script 16
+02:10:51.701:   OpenType support missing for "decsess.pcf", script 16
+02:10:51.702:   OpenType support missing for "Noto Color Emoji", script 16
+02:10:51.702:   OpenType support missing for "", script 16
+02:10:51.702:   OpenType support missing for "", script 16
+02:10:51.703:   OpenType support missing for "", script 16
+02:10:51.703:   OpenType support missing for "", script 16
+02:10:51.703:   OpenType support missing for "", script 16
+02:10:51.704:   OpenType support missing for "", script 16
+02:10:51.704:   OpenType support missing for "", script 16
+02:10:51.704:   OpenType support missing for "", script 16
+02:10:51.704:   OpenType support missing for "", script 16
+02:10:51.705:   OpenType support missing for "", script 16
+02:10:51.705:   OpenType support missing for "", script 16
+02:10:51.705:   OpenType support missing for "", script 16
+02:10:51.706:   OpenType support missing for "", script 16
+02:10:51.706:   OpenType support missing for "", script 16
+02:10:51.706:   OpenType support missing for "", script 16
+02:10:51.706:   OpenType support missing for "", script 16
+02:10:51.707:   OpenType support missing for "", script 16
+02:10:51.707:   OpenType support missing for "", script 16
+02:10:51.707:   OpenType support missing for "", script 16
+02:10:51.708:   OpenType support missing for "", script 16
+02:10:51.708:   OpenType support missing for "", script 16
+02:10:51.708:   OpenType support missing for "", script 16
+02:10:51.709:   OpenType support missing for "", script 16
+02:10:51.709:   OpenType support missing for "", script 16
+02:10:51.709:   OpenType support missing for "", script 16
+02:10:51.709:   OpenType support missing for "", script 16
+02:10:51.710:   OpenType support missing for "", script 16
+02:10:51.710:   OpenType support missing for "", script 16
+02:10:51.710:   OpenType support missing for "", script 16
+02:10:51.711:   OpenType support missing for "", script 16
+02:10:51.711:   OpenType support missing for "", script 16
+02:10:51.725: Last log entry repeated for 48 more lines
+02:10:51.725:   OpenType support missing for "Open Sans", script 20
+02:10:51.727:   OpenType support missing for "Roboto", script 20
+02:10:51.727:   OpenType support missing for "Noto Sans", script 20
+02:10:51.728:   OpenType support missing for "Noto Sans Symbols", script 20
+02:10:51.728:   OpenType support missing for "Liberation Sans", script 20
+02:10:51.728:   OpenType support missing for "Cantarell", script 20
+02:10:51.729:   OpenType support missing for "Luxi Sans", script 20
+02:10:51.729:   OpenType support missing for "DejaVu Sans", script 20
+02:10:51.729:   OpenType support missing for "Poppins", script 20
+02:10:51.730:   OpenType support missing for "Source Sans 3", script 20
+02:10:51.730:   OpenType support missing for "Source Serif Pro", script 20
+02:10:51.730:   OpenType support missing for "DejaVu Math TeX Gyre", script 20
+02:10:51.730:   OpenType support missing for "DejaVu Sans Mono", script 20
+02:10:51.731:   OpenType support missing for "DejaVu Serif", script 20
+02:10:51.731:   OpenType support missing for "Roboto Condensed", script 20
+02:10:51.731:   OpenType support missing for "Liberation Mono", script 20
+02:10:51.731:   OpenType support missing for "Liberation Serif", script 20
+02:10:51.732:   OpenType support missing for "Source Sans Pro", script 20
+02:10:51.732:   OpenType support missing for "Source Code Pro", script 20
+02:10:51.732:   OpenType support missing for "Noto Sans Symbols 2", script 20
+02:10:51.733:   OpenType support missing for "Noto Sans CJK JP", script 20
+02:10:51.733:   OpenType support missing for "Noto Sans CJK KR", script 20
+02:10:51.733:   OpenType support missing for "Noto Sans CJK SC", script 20
+02:10:51.734:   OpenType support missing for "Noto Sans CJK TC", script 20
+02:10:51.734:   OpenType support missing for "Bitstream Charter", script 20
+02:10:51.734:   OpenType support missing for "Courier 10 Pitch", script 20
+02:10:51.735:   OpenType support missing for "OCR A", script 20
+02:10:51.735:   OpenType support missing for "Luxi Mono", script 20
+02:10:51.735:   OpenType support missing for "Luxi Serif", script 20
+02:10:51.736:   OpenType support missing for "Carlito", script 20
+02:10:51.736:   OpenType support missing for "STIXGeneral", script 20
+02:10:51.736:   OpenType support missing for "Courier", script 20
+02:10:51.737:   OpenType support missing for "Utopia", script 20
+02:10:51.737:   OpenType support missing for "Special Elite", script 20
+02:10:51.737:   OpenType support missing for "Classic Console", script 20
+02:10:51.738:   OpenType support missing for "East Syriac Adiabene", script 20
+02:10:51.738:   OpenType support missing for "Estrangelo Antioch", script 20
+02:10:51.738:   OpenType support missing for "Serto Batnan", script 20
+02:10:51.738:   OpenType support missing for "East Syriac Ctesiphon", script 20
+02:10:51.739:   OpenType support missing for "Estrangelo Edessa", script 20
+02:10:51.739:   OpenType support missing for "Serto Jerusalem", script 20
+02:10:51.739:   OpenType support missing for "Serto Jerusalem Outline", script 20
+02:10:51.740:   OpenType support missing for "Serto Kharput", script 20
+02:10:51.740:   OpenType support missing for "Serto Malankara", script 20
+02:10:51.740:   OpenType support missing for "Serto Mardin", script 20
+02:10:51.741:   OpenType support missing for "Estrangelo Midyat", script 20
+02:10:51.741:   OpenType support missing for "Estrangelo Nisibin", script 20
+02:10:51.741:   OpenType support missing for "Estrangelo Nisibin Outline", script 20
+02:10:51.741:   OpenType support missing for "Estrangelo Quenneshrin", script 20
+02:10:51.742:   OpenType support missing for "Estrangelo Talada", script 20
+02:10:51.742:   OpenType support missing for "Estrangelo TurAbdin", script 20
+02:10:51.742:   OpenType support missing for "Serto Urhoy", script 20
+02:10:51.743:   OpenType support missing for "gallant12x22", script 20
+02:10:51.743:   OpenType support missing for "Goha-Tibeb Zemen", script 20
+02:10:51.743:   OpenType support missing for "Cursor", script 20
+02:10:51.744:   OpenType support missing for "Adobe Utopia", script 20
+02:10:51.744:   OpenType support missing for "Courier-converted", script 20
+02:10:51.744:   OpenType support missing for "Helvetica-converted", script 20
+02:10:51.745:   OpenType support missing for "Adobe Courier", script 20
+02:10:51.745:   OpenType support missing for "Adobe Helvetica", script 20
+02:10:51.746:   OpenType support missing for "B&H LucidaBright", script 20
+02:10:51.746:   OpenType support missing for "Adobe New Century Schoolbook", script 20
+02:10:51.746:   OpenType support missing for "Adobe Times", script 20
+02:10:51.747:   OpenType support missing for "Misc Fixed", script 20
+02:10:51.752:   OpenType support missing for "Efont Biwidth", script 20
+02:10:51.753:   OpenType support missing for "Schumacher Clean", script 20
+02:10:51.754:   OpenType support missing for "Efont Fixed", script 20
+02:10:51.760:   OpenType support missing for "Efont Fixed Wide", script 20
+02:10:51.760:   OpenType support missing for "B&H Lucida", script 20
+02:10:51.760:   OpenType support missing for "B&H LucidaTypewriter", script 20
+02:10:51.761:   OpenType support missing for "Adobe Symbol", script 20
+02:10:51.764:   OpenType support missing for "Misc Fixed Wide", script 20
+02:10:51.764:   OpenType support missing for "DEC Terminal", script 20
+02:10:51.765:   OpenType support missing for "ETL Fixed", script 20
+02:10:51.765:   OpenType support missing for "Sony Fixed", script 20
+02:10:51.766:   OpenType support missing for "Daewoo Gothic Wide", script 20
+02:10:51.766:   OpenType support missing for "Daewoo Mincho Wide", script 20
+02:10:51.766:   OpenType support missing for "ISAS Fangsong ti Wide", script 20
+02:10:51.766:   OpenType support missing for "ISAS Song ti Wide", script 20
+02:10:51.767:   OpenType support missing for "JIS Fixed Wide", script 20
+02:10:51.769:   OpenType support missing for "MUTT ClearlyU Wide", script 20
+02:10:51.769:   OpenType support missing for "Schumacher Clean Wide", script 20
+02:10:51.770:   OpenType support missing for "MUTT ClearlyU Alternate Glyphs Wide", script 20
+02:10:51.770:   OpenType support missing for "MUTT ClearlyU PUA", script 20
+02:10:51.770:   OpenType support missing for "MUTT ClearlyU Arabic Extra", script 20
+02:10:51.770:   OpenType support missing for "Bitstream Terminal", script 20
+02:10:51.771:   OpenType support missing for "micro.pcf", script 20
+02:10:51.772:   OpenType support missing for "Arabic Newspaper", script 20
+02:10:51.773:   OpenType support missing for "cursor.pcf", script 20
+02:10:51.774:   OpenType support missing for "deccurs.pcf", script 20
+02:10:51.774:   OpenType support missing for "decsess.pcf", script 20
+02:10:51.775:   OpenType support missing for "Noto Color Emoji", script 20
+02:10:51.776:   OpenType support missing for "", script 20
+02:10:51.776:   OpenType support missing for "", script 20
+02:10:51.776:   OpenType support missing for "", script 20
+02:10:51.777:   OpenType support missing for "", script 20
+02:10:51.777:   OpenType support missing for "", script 20
+02:10:51.777:   OpenType support missing for "", script 20
+02:10:51.777:   OpenType support missing for "", script 20
+02:10:51.778:   OpenType support missing for "", script 20
+02:10:51.778:   OpenType support missing for "", script 20
+02:10:51.778:   OpenType support missing for "", script 20
+02:10:51.779:   OpenType support missing for "", script 20
+02:10:51.779:   OpenType support missing for "", script 20
+02:10:51.779:   OpenType support missing for "", script 20
+02:10:51.780:   OpenType support missing for "", script 20
+02:10:51.780:   OpenType support missing for "", script 20
+02:10:51.780:   OpenType support missing for "", script 20
+02:10:51.781:   OpenType support missing for "", script 20
+02:10:51.781:   OpenType support missing for "", script 20
+02:10:51.781:   OpenType support missing for "", script 20
+02:10:51.782:   OpenType support missing for "", script 20
+02:10:51.782:   OpenType support missing for "", script 20
+02:10:51.782:   OpenType support missing for "", script 20
+02:10:51.782:   OpenType support missing for "", script 20
+02:10:51.783:   OpenType support missing for "", script 20
+02:10:51.783:   OpenType support missing for "", script 20
+02:10:51.783:   OpenType support missing for "", script 20
+02:10:51.784:   OpenType support missing for "", script 20
+02:10:51.784:   OpenType support missing for "", script 20
+02:10:51.784:   OpenType support missing for "", script 20
+02:10:51.784:   OpenType support missing for "", script 20
+02:10:51.785:   OpenType support missing for "", script 20
+02:10:51.799: Last log entry repeated for 47 more lines
+02:10:51.799:   OpenType support missing for "Cantarell", script 20
+02:10:51.801:   OpenType support missing for "Roboto", script 20
+02:10:51.801:   OpenType support missing for "Noto Sans", script 20
+02:10:51.801:   OpenType support missing for "Noto Sans Symbols", script 20
+02:10:51.801:   OpenType support missing for "Liberation Sans", script 20
+02:10:51.802:   OpenType support missing for "Luxi Sans", script 20
+02:10:51.802:   OpenType support missing for "DejaVu Sans", script 20
+02:10:51.802:   OpenType support missing for "Poppins", script 20
+02:10:51.803:   OpenType support missing for "Source Sans 3", script 20
+02:10:51.803:   OpenType support missing for "Open Sans", script 20
+02:10:51.803:   OpenType support missing for "Source Serif Pro", script 20
+02:10:51.803:   OpenType support missing for "DejaVu Math TeX Gyre", script 20
+02:10:51.803:   OpenType support missing for "DejaVu Sans Mono", script 20
+02:10:51.804:   OpenType support missing for "DejaVu Serif", script 20
+02:10:51.804:   OpenType support missing for "Roboto Condensed", script 20
+02:10:51.804:   OpenType support missing for "Liberation Mono", script 20
+02:10:51.804:   OpenType support missing for "Liberation Serif", script 20
+02:10:51.805:   OpenType support missing for "Source Sans Pro", script 20
+02:10:51.805:   OpenType support missing for "Source Code Pro", script 20
+02:10:51.805:   OpenType support missing for "Noto Sans Symbols 2", script 20
+02:10:51.806:   OpenType support missing for "Noto Sans CJK JP", script 20
+02:10:51.806:   OpenType support missing for "Noto Sans CJK KR", script 20
+02:10:51.806:   OpenType support missing for "Noto Sans CJK SC", script 20
+02:10:51.807:   OpenType support missing for "Noto Sans CJK TC", script 20
+02:10:51.807:   OpenType support missing for "Bitstream Charter", script 20
+02:10:51.807:   OpenType support missing for "Courier 10 Pitch", script 20
+02:10:51.808:   OpenType support missing for "OCR A", script 20
+02:10:51.808:   OpenType support missing for "Luxi Mono", script 20
+02:10:51.808:   OpenType support missing for "Luxi Serif", script 20
+02:10:51.809:   OpenType support missing for "Carlito", script 20
+02:10:51.809:   OpenType support missing for "STIXGeneral", script 20
+02:10:51.810:   OpenType support missing for "Courier", script 20
+02:10:51.810:   OpenType support missing for "Utopia", script 20
+02:10:51.810:   OpenType support missing for "Special Elite", script 20
+02:10:51.811:   OpenType support missing for "Classic Console", script 20
+02:10:51.811:   OpenType support missing for "East Syriac Adiabene", script 20
+02:10:51.811:   OpenType support missing for "Estrangelo Antioch", script 20
+02:10:51.812:   OpenType support missing for "Serto Batnan", script 20
+02:10:51.812:   OpenType support missing for "East Syriac Ctesiphon", script 20
+02:10:51.812:   OpenType support missing for "Estrangelo Edessa", script 20
+02:10:51.813:   OpenType support missing for "Serto Jerusalem", script 20
+02:10:51.813:   OpenType support missing for "Serto Jerusalem Outline", script 20
+02:10:51.813:   OpenType support missing for "Serto Kharput", script 20
+02:10:51.814:   OpenType support missing for "Serto Malankara", script 20
+02:10:51.814:   OpenType support missing for "Serto Mardin", script 20
+02:10:51.814:   OpenType support missing for "Estrangelo Midyat", script 20
+02:10:51.814:   OpenType support missing for "Estrangelo Nisibin", script 20
+02:10:51.815:   OpenType support missing for "Estrangelo Nisibin Outline", script 20
+02:10:51.815:   OpenType support missing for "Estrangelo Quenneshrin", script 20
+02:10:51.815:   OpenType support missing for "Estrangelo Talada", script 20
+02:10:51.816:   OpenType support missing for "Estrangelo TurAbdin", script 20
+02:10:51.816:   OpenType support missing for "Serto Urhoy", script 20
+02:10:51.816:   OpenType support missing for "gallant12x22", script 20
+02:10:51.817:   OpenType support missing for "Goha-Tibeb Zemen", script 20
+02:10:51.817:   OpenType support missing for "Cursor", script 20
+02:10:51.817:   OpenType support missing for "Adobe Utopia", script 20
+02:10:51.818:   OpenType support missing for "Courier-converted", script 20
+02:10:51.818:   OpenType support missing for "Helvetica-converted", script 20
+02:10:51.818:   OpenType support missing for "Adobe Courier", script 20
+02:10:51.819:   OpenType support missing for "Adobe Helvetica", script 20
+02:10:51.819:   OpenType support missing for "B&H LucidaBright", script 20
+02:10:51.819:   OpenType support missing for "Adobe New Century Schoolbook", script 20
+02:10:51.820:   OpenType support missing for "Adobe Times", script 20
+02:10:51.820:   OpenType support missing for "Misc Fixed", script 20
+02:10:51.826:   OpenType support missing for "Efont Biwidth", script 20
+02:10:51.827:   OpenType support missing for "Schumacher Clean", script 20
+02:10:51.828:   OpenType support missing for "Efont Fixed", script 20
+02:10:51.834:   OpenType support missing for "Efont Fixed Wide", script 20
+02:10:51.834:   OpenType support missing for "B&H Lucida", script 20
+02:10:51.834:   OpenType support missing for "B&H LucidaTypewriter", script 20
+02:10:51.834:   OpenType support missing for "Adobe Symbol", script 20
+02:10:51.838:   OpenType support missing for "Misc Fixed Wide", script 20
+02:10:51.838:   OpenType support missing for "DEC Terminal", script 20
+02:10:51.838:   OpenType support missing for "ETL Fixed", script 20
+02:10:51.839:   OpenType support missing for "Sony Fixed", script 20
+02:10:51.839:   OpenType support missing for "Daewoo Gothic Wide", script 20
+02:10:51.839:   OpenType support missing for "Daewoo Mincho Wide", script 20
+02:10:51.840:   OpenType support missing for "ISAS Fangsong ti Wide", script 20
+02:10:51.840:   OpenType support missing for "ISAS Song ti Wide", script 20
+02:10:51.840:   OpenType support missing for "JIS Fixed Wide", script 20
+02:10:51.842:   OpenType support missing for "MUTT ClearlyU Wide", script 20
+02:10:51.843:   OpenType support missing for "Schumacher Clean Wide", script 20
+02:10:51.843:   OpenType support missing for "MUTT ClearlyU Alternate Glyphs Wide", script 20
+02:10:51.844:   OpenType support missing for "MUTT ClearlyU PUA", script 20
+02:10:51.844:   OpenType support missing for "MUTT ClearlyU Arabic Extra", script 20
+02:10:51.844:   OpenType support missing for "Bitstream Terminal", script 20
+02:10:51.845:   OpenType support missing for "micro.pcf", script 20
+02:10:51.846:   OpenType support missing for "Arabic Newspaper", script 20
+02:10:51.847:   OpenType support missing for "cursor.pcf", script 20
+02:10:51.847:   OpenType support missing for "deccurs.pcf", script 20
+02:10:51.848:   OpenType support missing for "decsess.pcf", script 20
+02:10:51.849:   OpenType support missing for "Noto Color Emoji", script 20
+02:10:51.849:   OpenType support missing for "", script 20
+02:10:51.850:   OpenType support missing for "", script 20
+02:10:51.850:   OpenType support missing for "", script 20
+02:10:51.850:   OpenType support missing for "", script 20
+02:10:51.851:   OpenType support missing for "", script 20
+02:10:51.851:   OpenType support missing for "", script 20
+02:10:51.851:   OpenType support missing for "", script 20
+02:10:51.851:   OpenType support missing for "", script 20
+02:10:51.852:   OpenType support missing for "", script 20
+02:10:51.852:   OpenType support missing for "", script 20
+02:10:51.852:   OpenType support missing for "", script 20
+02:10:51.853:   OpenType support missing for "", script 20
+02:10:51.853:   OpenType support missing for "", script 20
+02:10:51.853:   OpenType support missing for "", script 20
+02:10:51.854:   OpenType support missing for "", script 20
+02:10:51.854:   OpenType support missing for "", script 20
+02:10:51.854:   OpenType support missing for "", script 20
+02:10:51.854:   OpenType support missing for "", script 20
+02:10:51.855:   OpenType support missing for "", script 20
+02:10:51.855:   OpenType support missing for "", script 20
+02:10:51.855:   OpenType support missing for "", script 20
+02:10:51.856:   OpenType support missing for "", script 20
+02:10:51.856:   OpenType support missing for "", script 20
+02:10:51.856:   OpenType support missing for "", script 20
+02:10:51.856:   OpenType support missing for "", script 20
+02:10:51.857:   OpenType support missing for "", script 20
+02:10:51.857:   OpenType support missing for "", script 20
+02:10:51.857:   OpenType support missing for "", script 20
+02:10:51.858:   OpenType support missing for "", script 20
+02:10:51.858:   OpenType support missing for "", script 20
+02:10:51.858:   OpenType support missing for "", script 20
+02:11:06.286: Last log entry repeated for 48 more lines
+02:11:06.286: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d99cf7c0
+02:16:04.316: Output 'Nagrywanie powtórek': stopping
+02:16:04.316: Output 'Nagrywanie powtórek': Total frames output: 19472
+02:16:04.316: Output 'Nagrywanie powtórek': Total drawn frames: 19475
+02:16:04.316: ==== Replay Buffer Stop ============================================
+02:16:04.470: libfdk_aac encoder destroyed
+02:16:05.930: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+02:16:05.930: Setting B-frames to 0
+02:16:05.930: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+02:16:05.930: [obs-nvenc: 'advanced_video_recording'] settings:
+02:16:05.930: 	codec:        HEVC
+02:16:05.930: 	rate_control: CQP
+02:16:05.930: 	bitrate:      0
+02:16:05.930: 	cqp:          16
+02:16:05.930: 	keyint:       120
+02:16:05.930: 	preset:       p7
+02:16:05.930: 	tuning:       hq
+02:16:05.930: 	multipass:    fullres
+02:16:05.930: 	profile:      main
+02:16:05.930: 	width:        1920
+02:16:05.930: 	height:       1080
+02:16:05.930: 	b-frames:     0
+02:16:05.930: 	lookahead:    false
+02:16:05.930: 	psycho_aq:    true
+02:16:05.930: 
+02:16:05.944: libfdk_aac encoder created
+02:16:05.944: libfdk_aac bitrate: 160, channels: 2
+02:16:05.946: ==== Replay Buffer Start ===========================================
+02:16:55.902: [ffmpeg muxer: 'Nagrywanie powtórek'] Wrote replay buffer to '/home/sgasg/obs /Replay 2024-07-14 02-16-55.mp4'
+02:18:12.700: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mikrofon/Wejście liniowe)
+02:18:12.700: 
+02:20:33.169: [ffmpeg muxer: 'Nagrywanie powtórek'] Wrote replay buffer to '/home/sgasg/obs /Replay 2024-07-14 02-20-33.mp4'
+02:32:29.204: Settings changed (outputs)
+02:32:29.204: ------------------------------------------------
+02:32:33.917: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d98263d0
+02:34:00.110: Switched to Preview/Program mode
+02:34:00.110: ------------------------------------------------
+02:34:01.688: Switched to scene 'Scena'
+02:34:01.697: Switched to regular Preview mode
+02:34:01.697: ------------------------------------------------
+02:34:04.467: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d5c00170
+02:34:04.940: Switched to Preview/Program mode
+02:34:04.940: ------------------------------------------------
+02:34:06.209: User switched Program to scene 'Scena'
+02:34:08.105: User switched Program to scene 'Scena'
+02:34:08.690: User switched Program to scene 'Scena'
+02:34:10.402: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d5370d20
+02:34:11.498: Switched to scene 'Scena'
+02:34:11.499: Switched to regular Preview mode
+02:34:11.499: ------------------------------------------------
+02:40:40.312: [pipewire] Stream 0x55a0d573c840 state: "paused" (error: none)
+02:40:43.135: [pipewire] Stream 0x55a0d573c840 state: "unconnected" (error: none)
+02:40:43.141: PipeWire initialized
+02:40:43.143: [pipewire] Screencast session created
+02:40:43.144: [pipewire] Asking for monitor and window
+02:40:45.057: [pipewire] source selected, setting up screencast
+02:40:45.061: [pipewire] Server version: 1.2.0
+02:40:45.061: [pipewire] Library version: 1.2.0
+02:40:45.061: [pipewire] Header version: 1.2.0
+02:40:45.061: [pipewire] Created stream 0x55a0d8babf80
+02:40:45.061: [pipewire] Stream 0x55a0d8babf80 state: "connecting" (error: none)
+02:40:45.061: [pipewire] Playing stream 0x55a0d8babf80
+02:40:45.061: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+02:40:45.064: [pipewire] Negotiated format:
+02:40:45.064: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+02:40:45.064: [pipewire]     Modifier: 0x0
+02:40:45.064: [pipewire]     Size: 1920x1080
+02:40:45.064: [pipewire]     Framerate: 0/1
+02:40:45.066: [pipewire] Negotiated format:
+02:40:45.066: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+02:40:45.066: [pipewire]     Modifier: 0x300000000cdb014
+02:40:45.066: [pipewire]     Size: 1920x1080
+02:40:45.066: [pipewire]     Framerate: 0/1
+02:40:45.081: [pipewire] Stream 0x55a0d8babf80 state: "streaming" (error: none)
+02:40:46.769: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d862b5d0
+02:42:24.525: [ffmpeg muxer: 'Nagrywanie powtórek'] Wrote replay buffer to '/home/sgasg/obs /Replay 2024-07-14 02-42-24.mp4'
+02:54:09.911: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+02:54:09.927: [pipewire] Stream 0x55a0d8babf80 state: "unconnected" (error: none)
+02:54:09.938: PipeWire initialized
+02:54:09.940: [pipewire] Screencast session created
+02:54:09.940: [pipewire] Asking for monitor and window
+02:54:12.085: [pipewire] source selected, setting up screencast
+02:54:15.179: [pipewire] Server version: 1.2.0
+02:54:15.179: [pipewire] Library version: 1.2.0
+02:54:15.179: [pipewire] Header version: 1.2.0
+02:54:15.254: [pipewire] Created stream 0x55a0d8babf80
+02:54:15.254: [pipewire] Stream 0x55a0d8babf80 state: "connecting" (error: none)
+02:54:15.254: [pipewire] Playing stream 0x55a0d8babf80
+02:54:15.254: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+02:54:15.288: [pipewire] Negotiated format:
+02:54:15.288: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+02:54:15.288: [pipewire]     Modifier: 0x0
+02:54:15.288: [pipewire]     Size: 1920x1080
+02:54:15.288: [pipewire]     Framerate: 0/1
+02:54:15.646: [pipewire] Negotiated format:
+02:54:15.646: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+02:54:15.646: [pipewire]     Modifier: 0x300000000cdb014
+02:54:15.646: [pipewire]     Size: 1920x1080
+02:54:15.646: [pipewire]     Framerate: 0/1
+02:54:15.664: [pipewire] Stream 0x55a0d8babf80 state: "streaming" (error: none)
+02:54:16.824: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d9a482e0
+03:25:43.139: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+03:25:43.140: [pipewire] Stream 0x55a0d8babf80 state: "unconnected" (error: none)
+03:25:43.145: PipeWire initialized
+03:25:43.147: [pipewire] Screencast session created
+03:25:43.147: [pipewire] Asking for monitor and window
+03:25:45.204: [pipewire] source selected, setting up screencast
+03:25:45.207: [pipewire] Server version: 1.2.0
+03:25:45.207: [pipewire] Library version: 1.2.0
+03:25:45.207: [pipewire] Header version: 1.2.0
+03:25:45.207: [pipewire] Created stream 0x55a0d8babf80
+03:25:45.208: [pipewire] Stream 0x55a0d8babf80 state: "connecting" (error: none)
+03:25:45.208: [pipewire] Playing stream 0x55a0d8babf80
+03:25:45.208: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+03:25:45.210: [pipewire] Negotiated format:
+03:25:45.210: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+03:25:45.210: [pipewire]     Modifier: 0x0
+03:25:45.210: [pipewire]     Size: 1920x1080
+03:25:45.210: [pipewire]     Framerate: 0/1
+03:25:45.211: [pipewire] Negotiated format:
+03:25:45.211: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+03:25:45.211: [pipewire]     Modifier: 0x300000000cdb014
+03:25:45.211: [pipewire]     Size: 1920x1080
+03:25:45.211: [pipewire]     Framerate: 0/1
+03:25:45.224: [pipewire] Stream 0x55a0d8babf80 state: "streaming" (error: none)
+03:25:46.531: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0da85dc70
+03:25:52.609: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d98a2430
+03:25:53.649: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d5bb62b0
+03:25:55.770: User Removed source 'Przechwytywanie ekranu (PipeWire)' (pipewire-screen-capture-source) from scene 'Scena'
+03:25:55.771: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+03:25:55.772: [pipewire] Stream 0x55a0d8babf80 state: "unconnected" (error: none)
+03:25:55.784: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d60d60e0
+03:25:57.857: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d8003780
+03:25:58.743: ext_screencopy_manager_v1 not available
+03:25:58.745: User added source 'Przechwytywanie gry' (vkcapture-source) to scene 'Scena'
+03:25:58.748: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d99f10e0
+03:26:00.197: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d5641220
+03:26:00.688: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d9430480
+03:26:04.581: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d8ea2610
+03:26:06.406: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d509e950
+03:26:08.235: User Removed source 'Przechwytywanie gry' (vkcapture-source) from scene 'Scena'
+03:26:08.235: [linux-vkcapture] destroy
+03:26:08.241: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d835c020
+03:26:12.806: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d56601f0
+03:26:13.905: PipeWire initialized
+03:26:13.907: User added source 'Przechwytywanie ekranu (PipeWire)' (pipewire-screen-capture-source) to scene 'Scena'
+03:26:13.911: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d38260c0
+03:26:13.919: [pipewire] Screencast session created
+03:26:13.923: [pipewire] Asking for monitor and window
+03:26:17.938: [pipewire] source selected, setting up screencast
+03:26:17.941: [pipewire] Server version: 1.2.0
+03:26:17.941: [pipewire] Library version: 1.2.0
+03:26:17.941: [pipewire] Header version: 1.2.0
+03:26:17.941: [pipewire] Created stream 0x55a0d8babf80
+03:26:17.941: [pipewire] Stream 0x55a0d8babf80 state: "connecting" (error: none)
+03:26:17.941: [pipewire] Playing stream 0x55a0d8babf80
+03:26:17.942: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+03:26:17.944: [pipewire] Negotiated format:
+03:26:17.944: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+03:26:17.944: [pipewire]     Modifier: 0x0
+03:26:17.944: [pipewire]     Size: 1920x1080
+03:26:17.944: [pipewire]     Framerate: 0/1
+03:26:17.945: [pipewire] Negotiated format:
+03:26:17.945: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+03:26:17.945: [pipewire]     Modifier: 0x300000000cdb014
+03:26:17.945: [pipewire]     Size: 1920x1080
+03:26:17.945: [pipewire]     Framerate: 0/1
+03:26:17.957: [pipewire] Stream 0x55a0d8babf80 state: "streaming" (error: none)
+03:26:19.882: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d5baf790
+03:27:55.209: [pipewire] Stream 0x55a0d8babf80 state: "paused" (error: none)
+03:30:48.760: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d9298e90
+03:30:50.448: [pipewire] Stream 0x55a0d8babf80 state: "unconnected" (error: none)
+03:30:50.453: PipeWire initialized
+03:30:50.454: [pipewire] Screencast session created
+03:30:50.455: [pipewire] Asking for monitor and window
+03:30:51.684: [pipewire] Failed to start screencast, denied or cancelled by user
+03:30:52.599: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d9415740
+03:43:14.352: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d8f56af0
+03:43:40.872: Settings changed (hotkeys)
+03:43:40.872: ------------------------------------------------
+03:43:41.323: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d8ce4570
+03:43:42.890: [ffmpeg muxer: 'Nagrywanie powtórek'] Wrote replay buffer to '/home/sgasg/obs /Replay 2024-07-14 03-43-42.mp4'
+03:44:14.725: Settings changed (hotkeys)
+03:44:14.725: ------------------------------------------------
+03:44:15.174: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0da1af7f0
+03:53:19.401: Settings changed (hotkeys)
+03:53:19.401: ------------------------------------------------
+03:53:19.890: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d9b52620
+03:55:54.059: Settings changed (hotkeys)
+03:55:54.059: ------------------------------------------------
+03:55:54.599: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d96b1dc0
+03:55:55.889: [ffmpeg muxer: 'Nagrywanie powtórek'] Wrote replay buffer to '/home/sgasg/obs /Replay 2024-07-14 03-55-55.mp4'
+03:56:09.845: [ffmpeg muxer: 'Nagrywanie powtórek'] Wrote replay buffer to '/home/sgasg/obs /Replay 2024-07-14 03-56-09.mp4'
+04:01:03.726: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d8ebf5e0
+04:01:32.344: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d8eeb4d0
+04:01:40.186: Settings changed (outputs)
+04:01:40.186: ------------------------------------------------
+04:01:41.474: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d92cd710
+04:01:51.447: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d897cff0
+04:03:56.770: Settings changed (hotkeys)
+04:03:56.770: ------------------------------------------------
+04:03:57.175: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d53de3a0
+04:48:00.736: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0d36ef2f0
+04:48:28.998: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x55a0da1dbce0
+04:59:34.711: The Wayland connection broke during blocking read event. Did the Wayland compositor die?

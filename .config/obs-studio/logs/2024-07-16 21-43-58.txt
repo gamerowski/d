@@ -1,0 +1,871 @@
+21:43:58.862: Platform: Wayland
+21:43:58.862: CPU Name: AMD Ryzen 5 5600X 6-Core Processor
+21:43:58.862: CPU Speed: 4640.745MHz
+21:43:58.863: Physical Cores: 6, Logical Cores: 12
+21:43:58.863: Physical Memory: 15916MB Total, 755MB Free
+21:43:58.863: Kernel Version: Linux 6.9.9-1-default
+21:43:58.863: Distribution: "openSUSE Tumbleweed" "20240714"
+21:43:58.863: Desktop Environment: GNOME (default)
+21:43:58.863: Session Type: wayland
+21:43:58.865: Qt Version: 6.7.2 (runtime), 6.7.2 (compiled)
+21:43:58.865: Portable mode: false
+21:43:58.899: OBS 30.2.0 (linux)
+21:43:58.899: ---------------------------------
+21:43:58.900: ---------------------------------
+21:43:58.900: audio settings reset:
+21:43:58.900: 	samples per sec: 48000
+21:43:58.900: 	speakers:        2
+21:43:58.900: 	max buffering:   960 milliseconds
+21:43:58.900: 	buffering type:  dynamically increasing
+21:43:58.910: ---------------------------------
+21:43:58.910: Initializing OpenGL...
+21:43:58.910: Using EGL/Wayland
+21:43:58.924: Initialized EGL 1.5
+21:43:58.943: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1070/PCIe/SSE2
+21:43:58.943: OpenGL loaded successfully, version 3.3.0 NVIDIA 555.58.02, shading language 3.30 NVIDIA via Cg compiler
+21:43:58.971: ---------------------------------
+21:43:58.971: video settings reset:
+21:43:58.971: 	base resolution:   1920x1080
+21:43:58.971: 	output resolution: 1920x1080
+21:43:58.971: 	downscale filter:  Bicubic
+21:43:58.971: 	fps:               60/1
+21:43:58.971: 	format:            NV12
+21:43:58.971: 	YUV mode:          Rec. 709/Partial
+21:43:58.972: NV12 texture support enabled
+21:43:58.972: P010 texture support not available
+21:43:58.973: Audio monitoring device:
+21:43:58.973: 	name: Domyślne
+21:43:58.973: 	id: default
+21:43:58.973: ---------------------------------
+21:43:58.988: Failed to load 'en-US' text for module: 'decklink-captions.so'
+21:43:59.006: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+21:43:59.023: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:43:59.023: Failed to initialize module 'decklink.so'
+21:43:59.425: [pipewire] Available capture sources:
+21:43:59.425: [pipewire]     - Monitor source
+21:43:59.425: [pipewire]     - Window source
+21:43:59.471: v4l2loopback not installed, virtual camera not registered
+21:43:59.485: [linux-vkcapture] plugin loaded successfully (version 1.5.0)
+21:43:59.507: [obs-browser]: Version 2.23.5
+21:43:59.507: [obs-browser]: CEF Version 103.0.5060.134 (runtime), 103.0.0-5060-shared-textures.2594+g17f8588+chromium-103.0.5060.134 (compiled)
+21:43:59.704: NVENC supported
+21:43:59.704: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+21:43:59.704: FFmpeg VAAPI H264 encoding not supported
+21:43:59.704: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+21:43:59.704: FFmpeg VAAPI AV1 encoding not supported
+21:43:59.704: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+21:43:59.704: FFmpeg VAAPI HEVC encoding not supported
+21:43:59.895: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.0 | RPC Version: 1)
+21:43:59.895: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.7.2 | Qt version (run-time): 6.7.2
+21:43:59.895: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+21:43:59.900: [obs-websocket] [obs_module_load] Module loaded.
+21:43:59.987: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+21:43:59.987: ---------------------------------
+21:43:59.987:   Loaded Modules:
+21:43:59.987:     vlc-video.so
+21:43:59.987:     text-freetype2.so
+21:43:59.987:     sndio.so
+21:43:59.987:     rtmp-services.so
+21:43:59.987:     obs-websocket.so
+21:43:59.987:     obs-webrtc.so
+21:43:59.987:     obs-vst.so
+21:43:59.987:     obs-transitions.so
+21:43:59.987:     obs-qsv11.so
+21:43:59.987:     obs-outputs.so
+21:43:59.987:     obs-libfdk.so
+21:43:59.987:     obs-filters.so
+21:43:59.987:     obs-ffmpeg.so
+21:43:59.987:     obs-browser.so
+21:43:59.987:     linux-vkcapture.so
+21:43:59.987:     linux-v4l2.so
+21:43:59.987:     linux-pulseaudio.so
+21:43:59.987:     linux-pipewire.so
+21:43:59.987:     linux-capture.so
+21:43:59.988:     linux-alsa.so
+21:43:59.988:     image-source.so
+21:43:59.988:     frontend-tools.so
+21:43:59.988:     decklink-output-ui.so
+21:43:59.988:     decklink-captions.so
+21:43:59.988: ---------------------------------
+21:43:59.988: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+21:43:59.988: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+21:43:59.988: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+21:43:59.988: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 192.168.1.105
+21:43:59.988: ---------------------------------
+21:43:59.988: Available Encoders:
+21:43:59.988:   Video Encoders:
+21:43:59.988: 	- ffmpeg_svt_av1 (SVT-AV1)
+21:43:59.988: 	- ffmpeg_aom_av1 (AOM AV1)
+21:43:59.988: 	- jim_nvenc (NVIDIA NVENC H.264)
+21:43:59.988: 	- jim_hevc_nvenc (NVIDIA NVENC HEVC)
+21:43:59.988: 	- jim_av1_nvenc (NVIDIA NVENC AV1)
+21:43:59.988:   Audio Encoders:
+21:43:59.988: 	- ffmpeg_aac (FFmpeg AAC)
+21:43:59.988: 	- ffmpeg_opus (FFmpeg Opus)
+21:43:59.988: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bitowy))
+21:43:59.988: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bitowy))
+21:43:59.988: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bitowy zmiennoprzecinkowy))
+21:43:59.988: 	- ffmpeg_alac (FFmpeg ALAC (24-bitowy))
+21:43:59.988: 	- ffmpeg_flac (FFmpeg FLAC (16-bitowy))
+21:43:59.988: 	- libfdk_aac (libfdk AAC)
+21:43:59.988: ==== Startup complete ===============================================
+21:43:59.992: Encoder ID 'obs_x264' not found
+21:44:00.032: All scene data cleared
+21:44:00.032: ------------------------------------------------
+21:44:00.034: pulse-input: Server name: 'pulseaudio 17.0'
+21:44:00.034: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:44:00.034: pulse-input: Started recording from 'audiorelay-speakers.monitor' (default)
+21:44:00.034: [Loaded global audio device]: 'Urządzenie audio'
+21:44:00.034: pulse-input: Server name: 'pulseaudio 17.0'
+21:44:00.034: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+21:44:00.035: pulse-input: Started recording from 'alsa_input.usb-HP__Inc_HyperX_SoloCast-00.analog-stereo'
+21:44:00.035: [Loaded global audio device]: 'Mikrofon/Wejście liniowe'
+21:44:00.035:     - filter: 'Tłumienie hałasu' (noise_suppress_filter_v2)
+21:44:00.035:     - filter: 'Korektor trzypasmowy' (basic_eq_filter)
+21:44:00.035:     - filter: 'Expander' (expander_filter)
+21:44:00.035:     - filter: 'Kompresor' (compressor_filter)
+21:44:00.035:     - filter: 'Limiter' (limiter_filter)
+21:44:00.036: PipeWire initialized
+21:44:00.037: Switched to scene 'Scena'
+21:44:00.037: ------------------------------------------------
+21:44:00.037: Loaded scenes:
+21:44:00.037: - scene 'Scena':
+21:44:00.037:     - source: 'Przechwytywanie ekranu (PipeWire)' (pipewire-screen-capture-source)
+21:44:00.037: ------------------------------------------------
+21:44:00.138: [pipewire] Screencast session created
+21:44:00.195: [pipewire] Asking for monitor and window
+21:44:00.328: [pipewire] source selected, setting up screencast
+21:44:00.377: [pipewire] Server version: 1.2.0
+21:44:00.377: [pipewire] Library version: 1.2.0
+21:44:00.377: [pipewire] Header version: 1.2.0
+21:44:00.377: [pipewire] Created stream 0x5629ab3b3b60
+21:44:00.377: [pipewire] Stream 0x5629ab3b3b60 state: "connecting" (error: none)
+21:44:00.377: [pipewire] Playing stream 0x5629ab3b3b60
+21:44:00.377: [pipewire] Stream 0x5629ab3b3b60 state: "paused" (error: none)
+21:44:00.385: [pipewire] Negotiated format:
+21:44:00.385: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:44:00.385: [pipewire]     Modifier: 0x0
+21:44:00.385: [pipewire]     Size: 1920x1080
+21:44:00.385: [pipewire]     Framerate: 0/1
+21:44:00.386: [pipewire] Negotiated format:
+21:44:00.386: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+21:44:00.386: [pipewire]     Modifier: 0x300000000cdb014
+21:44:00.386: [pipewire]     Size: 1920x1080
+21:44:00.386: [pipewire]     Framerate: 0/1
+21:44:00.399: [pipewire] Stream 0x5629ab3b3b60 state: "streaming" (error: none)
+21:44:00.649: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mikrofon/Wejście liniowe)
+21:44:00.649: 
+21:44:04.006: [pipewire] Stream 0x5629ab3b3b60 state: "paused" (error: none)
+21:45:25.249: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:45:25.249: Setting B-frames to 0
+21:45:25.249: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:45:25.249: [obs-nvenc: 'advanced_video_recording'] settings:
+21:45:25.249: 	codec:        HEVC
+21:45:25.249: 	rate_control: CBR
+21:45:25.249: 	bitrate:      50000
+21:45:25.249: 	cqp:          16
+21:45:25.249: 	keyint:       120
+21:45:25.249: 	preset:       p7
+21:45:25.249: 	tuning:       hq
+21:45:25.249: 	multipass:    fullres
+21:45:25.249: 	profile:      main
+21:45:25.249: 	width:        1920
+21:45:25.249: 	height:       1080
+21:45:25.249: 	b-frames:     0
+21:45:25.249: 	lookahead:    false
+21:45:25.249: 	psycho_aq:    true
+21:45:25.249: 
+21:45:25.264: libfdk_aac encoder created
+21:45:25.264: libfdk_aac bitrate: 160, channels: 2
+21:45:25.283: ==== Recording Start ===============================================
+21:45:25.283: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-45-25.mp4'...
+21:45:42.416: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-45-25.mp4' stopped
+21:45:42.416: Output 'adv_file_output': stopping
+21:45:42.416: Output 'adv_file_output': Total frames output: 1022
+21:45:42.416: Output 'adv_file_output': Total drawn frames: 1028
+21:45:42.417: ==== Recording Stop ================================================
+21:45:42.526: libfdk_aac encoder destroyed
+21:46:20.918: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:46:20.918: Setting B-frames to 0
+21:46:20.918: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:46:20.918: [obs-nvenc: 'advanced_video_recording'] settings:
+21:46:20.918: 	codec:        HEVC
+21:46:20.918: 	rate_control: CBR
+21:46:20.918: 	bitrate:      50000
+21:46:20.918: 	cqp:          16
+21:46:20.918: 	keyint:       120
+21:46:20.918: 	preset:       p7
+21:46:20.918: 	tuning:       hq
+21:46:20.918: 	multipass:    fullres
+21:46:20.918: 	profile:      main
+21:46:20.918: 	width:        1920
+21:46:20.918: 	height:       1080
+21:46:20.918: 	b-frames:     0
+21:46:20.918: 	lookahead:    false
+21:46:20.918: 	psycho_aq:    true
+21:46:20.918: 
+21:46:20.934: libfdk_aac encoder created
+21:46:20.934: libfdk_aac bitrate: 160, channels: 2
+21:46:20.936: ==== Recording Start ===============================================
+21:46:20.936: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-46-20.mp4'...
+21:46:27.995: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-46-20.mp4' stopped
+21:46:27.995: Output 'adv_file_output': stopping
+21:46:27.995: Output 'adv_file_output': Total frames output: 416
+21:46:27.995: Output 'adv_file_output': Total drawn frames: 424
+21:46:27.995: ==== Recording Stop ================================================
+21:46:28.199: libfdk_aac encoder destroyed
+21:46:34.305: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:46:34.305: Setting B-frames to 0
+21:46:34.305: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:46:34.305: [obs-nvenc: 'advanced_video_recording'] settings:
+21:46:34.305: 	codec:        HEVC
+21:46:34.305: 	rate_control: CBR
+21:46:34.305: 	bitrate:      50000
+21:46:34.305: 	cqp:          16
+21:46:34.305: 	keyint:       120
+21:46:34.305: 	preset:       p7
+21:46:34.305: 	tuning:       hq
+21:46:34.305: 	multipass:    fullres
+21:46:34.305: 	profile:      main
+21:46:34.305: 	width:        1920
+21:46:34.305: 	height:       1080
+21:46:34.305: 	b-frames:     0
+21:46:34.305: 	lookahead:    false
+21:46:34.305: 	psycho_aq:    true
+21:46:34.305: 
+21:46:34.319: libfdk_aac encoder created
+21:46:34.319: libfdk_aac bitrate: 160, channels: 2
+21:46:34.321: ==== Recording Start ===============================================
+21:46:34.321: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-46-34.mp4'...
+21:46:51.561: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-46-34.mp4' stopped
+21:46:51.561: Output 'adv_file_output': stopping
+21:46:51.561: Output 'adv_file_output': Total frames output: 1027
+21:46:51.561: Output 'adv_file_output': Total drawn frames: 1035
+21:46:51.562: ==== Recording Stop ================================================
+21:46:51.833: libfdk_aac encoder destroyed
+21:51:19.385: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:51:19.385: Setting B-frames to 0
+21:51:19.385: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:51:19.385: [obs-nvenc: 'advanced_video_recording'] settings:
+21:51:19.385: 	codec:        HEVC
+21:51:19.385: 	rate_control: CBR
+21:51:19.385: 	bitrate:      50000
+21:51:19.385: 	cqp:          16
+21:51:19.385: 	keyint:       120
+21:51:19.385: 	preset:       p7
+21:51:19.385: 	tuning:       hq
+21:51:19.385: 	multipass:    fullres
+21:51:19.385: 	profile:      main
+21:51:19.385: 	width:        1920
+21:51:19.385: 	height:       1080
+21:51:19.385: 	b-frames:     0
+21:51:19.385: 	lookahead:    false
+21:51:19.385: 	psycho_aq:    true
+21:51:19.385: 
+21:51:19.398: libfdk_aac encoder created
+21:51:19.398: libfdk_aac bitrate: 160, channels: 2
+21:51:19.401: ==== Recording Start ===============================================
+21:51:19.401: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-51-19.mp4'...
+21:51:32.211: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-51-19.mp4' stopped
+21:51:32.211: Output 'adv_file_output': stopping
+21:51:32.211: Output 'adv_file_output': Total frames output: 762
+21:51:32.211: Output 'adv_file_output': Total drawn frames: 769
+21:51:32.211: ==== Recording Stop ================================================
+21:51:32.414: libfdk_aac encoder destroyed
+21:51:58.300: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:51:58.300: Setting B-frames to 0
+21:51:58.300: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:51:58.300: [obs-nvenc: 'advanced_video_recording'] settings:
+21:51:58.300: 	codec:        HEVC
+21:51:58.300: 	rate_control: CBR
+21:51:58.300: 	bitrate:      50000
+21:51:58.300: 	cqp:          16
+21:51:58.300: 	keyint:       120
+21:51:58.300: 	preset:       p7
+21:51:58.300: 	tuning:       hq
+21:51:58.300: 	multipass:    fullres
+21:51:58.300: 	profile:      main
+21:51:58.300: 	width:        1920
+21:51:58.300: 	height:       1080
+21:51:58.300: 	b-frames:     0
+21:51:58.300: 	lookahead:    false
+21:51:58.300: 	psycho_aq:    true
+21:51:58.300: 
+21:51:58.313: libfdk_aac encoder created
+21:51:58.313: libfdk_aac bitrate: 160, channels: 2
+21:51:58.315: ==== Recording Start ===============================================
+21:51:58.315: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-51-58.mp4'...
+21:52:10.957: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-51-58.mp4' stopped
+21:52:10.957: Output 'adv_file_output': stopping
+21:52:10.957: Output 'adv_file_output': Total frames output: 752
+21:52:10.957: Output 'adv_file_output': Total drawn frames: 759
+21:52:10.957: ==== Recording Stop ================================================
+21:52:11.078: libfdk_aac encoder destroyed
+21:53:21.455: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:53:21.455: Setting B-frames to 0
+21:53:21.455: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:53:21.455: [obs-nvenc: 'advanced_video_recording'] settings:
+21:53:21.455: 	codec:        HEVC
+21:53:21.455: 	rate_control: CBR
+21:53:21.455: 	bitrate:      50000
+21:53:21.455: 	cqp:          16
+21:53:21.455: 	keyint:       120
+21:53:21.455: 	preset:       p7
+21:53:21.455: 	tuning:       hq
+21:53:21.455: 	multipass:    fullres
+21:53:21.455: 	profile:      main
+21:53:21.455: 	width:        1920
+21:53:21.455: 	height:       1080
+21:53:21.455: 	b-frames:     0
+21:53:21.455: 	lookahead:    false
+21:53:21.455: 	psycho_aq:    true
+21:53:21.455: 
+21:53:21.468: libfdk_aac encoder created
+21:53:21.468: libfdk_aac bitrate: 160, channels: 2
+21:53:21.470: ==== Recording Start ===============================================
+21:53:21.470: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-53-21.mp4'...
+21:53:35.361: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-53-21.mp4' stopped
+21:53:35.361: Output 'adv_file_output': stopping
+21:53:35.361: Output 'adv_file_output': Total frames output: 827
+21:53:35.361: Output 'adv_file_output': Total drawn frames: 834
+21:53:35.362: ==== Recording Stop ================================================
+21:53:35.486: libfdk_aac encoder destroyed
+21:53:41.073: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:53:41.073: Setting B-frames to 0
+21:53:41.073: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:53:41.073: [obs-nvenc: 'advanced_video_recording'] settings:
+21:53:41.073: 	codec:        HEVC
+21:53:41.073: 	rate_control: CBR
+21:53:41.073: 	bitrate:      50000
+21:53:41.073: 	cqp:          16
+21:53:41.073: 	keyint:       120
+21:53:41.073: 	preset:       p7
+21:53:41.073: 	tuning:       hq
+21:53:41.073: 	multipass:    fullres
+21:53:41.073: 	profile:      main
+21:53:41.073: 	width:        1920
+21:53:41.073: 	height:       1080
+21:53:41.073: 	b-frames:     0
+21:53:41.073: 	lookahead:    false
+21:53:41.073: 	psycho_aq:    true
+21:53:41.073: 
+21:53:41.086: libfdk_aac encoder created
+21:53:41.086: libfdk_aac bitrate: 160, channels: 2
+21:53:41.088: ==== Recording Start ===============================================
+21:53:41.088: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-53-41.mp4'...
+21:54:05.453: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-53-41.mp4' stopped
+21:54:05.453: Output 'adv_file_output': stopping
+21:54:05.453: Output 'adv_file_output': Total frames output: 1455
+21:54:05.453: Output 'adv_file_output': Total drawn frames: 1462
+21:54:05.453: ==== Recording Stop ================================================
+21:54:05.605: libfdk_aac encoder destroyed
+21:54:27.382: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:54:27.382: Setting B-frames to 0
+21:54:27.382: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:54:27.382: [obs-nvenc: 'advanced_video_recording'] settings:
+21:54:27.382: 	codec:        HEVC
+21:54:27.382: 	rate_control: CBR
+21:54:27.382: 	bitrate:      50000
+21:54:27.382: 	cqp:          16
+21:54:27.382: 	keyint:       120
+21:54:27.382: 	preset:       p7
+21:54:27.382: 	tuning:       hq
+21:54:27.382: 	multipass:    fullres
+21:54:27.382: 	profile:      main
+21:54:27.382: 	width:        1920
+21:54:27.382: 	height:       1080
+21:54:27.382: 	b-frames:     0
+21:54:27.382: 	lookahead:    false
+21:54:27.382: 	psycho_aq:    true
+21:54:27.382: 
+21:54:27.394: libfdk_aac encoder created
+21:54:27.394: libfdk_aac bitrate: 160, channels: 2
+21:54:27.397: ==== Recording Start ===============================================
+21:54:27.397: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-54-27.mp4'...
+21:54:31.671: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-54-27.mp4' stopped
+21:54:31.671: Output 'adv_file_output': stopping
+21:54:31.671: Output 'adv_file_output': Total frames output: 249
+21:54:31.671: Output 'adv_file_output': Total drawn frames: 256
+21:54:31.671: ==== Recording Stop ================================================
+21:54:31.910: libfdk_aac encoder destroyed
+21:54:37.798: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:54:37.798: Setting B-frames to 0
+21:54:37.798: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:54:37.798: [obs-nvenc: 'advanced_video_recording'] settings:
+21:54:37.798: 	codec:        HEVC
+21:54:37.798: 	rate_control: CBR
+21:54:37.798: 	bitrate:      50000
+21:54:37.798: 	cqp:          16
+21:54:37.798: 	keyint:       120
+21:54:37.798: 	preset:       p7
+21:54:37.798: 	tuning:       hq
+21:54:37.798: 	multipass:    fullres
+21:54:37.798: 	profile:      main
+21:54:37.798: 	width:        1920
+21:54:37.798: 	height:       1080
+21:54:37.798: 	b-frames:     0
+21:54:37.798: 	lookahead:    false
+21:54:37.798: 	psycho_aq:    true
+21:54:37.798: 
+21:54:37.810: libfdk_aac encoder created
+21:54:37.810: libfdk_aac bitrate: 160, channels: 2
+21:54:37.812: ==== Recording Start ===============================================
+21:54:37.812: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-54-37.mp4'...
+21:55:05.628: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-54-37.mp4' stopped
+21:55:05.628: Output 'adv_file_output': stopping
+21:55:05.628: Output 'adv_file_output': Total frames output: 1662
+21:55:05.628: Output 'adv_file_output': Total drawn frames: 1669
+21:55:05.628: ==== Recording Stop ================================================
+21:55:05.827: libfdk_aac encoder destroyed
+21:55:13.532: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:55:13.532: Setting B-frames to 0
+21:55:13.532: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:55:13.532: [obs-nvenc: 'advanced_video_recording'] settings:
+21:55:13.532: 	codec:        HEVC
+21:55:13.532: 	rate_control: CBR
+21:55:13.532: 	bitrate:      50000
+21:55:13.532: 	cqp:          16
+21:55:13.532: 	keyint:       120
+21:55:13.532: 	preset:       p7
+21:55:13.532: 	tuning:       hq
+21:55:13.532: 	multipass:    fullres
+21:55:13.532: 	profile:      main
+21:55:13.532: 	width:        1920
+21:55:13.532: 	height:       1080
+21:55:13.532: 	b-frames:     0
+21:55:13.532: 	lookahead:    false
+21:55:13.532: 	psycho_aq:    true
+21:55:13.532: 
+21:55:13.544: libfdk_aac encoder created
+21:55:13.544: libfdk_aac bitrate: 160, channels: 2
+21:55:13.546: ==== Recording Start ===============================================
+21:55:13.546: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-55-13.mp4'...
+21:55:36.096: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-55-13.mp4' stopped
+21:55:36.096: Output 'adv_file_output': stopping
+21:55:36.096: Output 'adv_file_output': Total frames output: 1346
+21:55:36.096: Output 'adv_file_output': Total drawn frames: 1353
+21:55:36.096: ==== Recording Stop ================================================
+21:55:36.310: libfdk_aac encoder destroyed
+21:56:01.646: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:56:01.646: Setting B-frames to 0
+21:56:01.646: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:56:01.646: [obs-nvenc: 'advanced_video_recording'] settings:
+21:56:01.646: 	codec:        HEVC
+21:56:01.646: 	rate_control: CBR
+21:56:01.646: 	bitrate:      50000
+21:56:01.646: 	cqp:          16
+21:56:01.646: 	keyint:       120
+21:56:01.646: 	preset:       p7
+21:56:01.646: 	tuning:       hq
+21:56:01.646: 	multipass:    fullres
+21:56:01.646: 	profile:      main
+21:56:01.646: 	width:        1920
+21:56:01.646: 	height:       1080
+21:56:01.646: 	b-frames:     0
+21:56:01.646: 	lookahead:    false
+21:56:01.646: 	psycho_aq:    true
+21:56:01.646: 
+21:56:01.659: libfdk_aac encoder created
+21:56:01.659: libfdk_aac bitrate: 160, channels: 2
+21:56:01.661: ==== Recording Start ===============================================
+21:56:01.661: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-56-01.mp4'...
+21:56:26.128: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-56-01.mp4' stopped
+21:56:26.128: Output 'adv_file_output': stopping
+21:56:26.128: Output 'adv_file_output': Total frames output: 1461
+21:56:26.128: Output 'adv_file_output': Total drawn frames: 1468
+21:56:26.128: ==== Recording Stop ================================================
+21:56:26.429: libfdk_aac encoder destroyed
+21:56:46.195: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:56:46.195: Setting B-frames to 0
+21:56:46.195: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:56:46.195: [obs-nvenc: 'advanced_video_recording'] settings:
+21:56:46.195: 	codec:        HEVC
+21:56:46.195: 	rate_control: CBR
+21:56:46.195: 	bitrate:      50000
+21:56:46.195: 	cqp:          16
+21:56:46.195: 	keyint:       120
+21:56:46.195: 	preset:       p7
+21:56:46.195: 	tuning:       hq
+21:56:46.195: 	multipass:    fullres
+21:56:46.195: 	profile:      main
+21:56:46.195: 	width:        1920
+21:56:46.195: 	height:       1080
+21:56:46.195: 	b-frames:     0
+21:56:46.195: 	lookahead:    false
+21:56:46.195: 	psycho_aq:    true
+21:56:46.195: 
+21:56:46.207: libfdk_aac encoder created
+21:56:46.207: libfdk_aac bitrate: 160, channels: 2
+21:56:46.209: ==== Recording Start ===============================================
+21:56:46.209: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-56-46.mp4'...
+21:57:14.424: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-56-46.mp4' stopped
+21:57:14.424: Output 'adv_file_output': stopping
+21:57:14.424: Output 'adv_file_output': Total frames output: 1685
+21:57:14.424: Output 'adv_file_output': Total drawn frames: 1693
+21:57:14.424: ==== Recording Stop ================================================
+21:57:14.728: libfdk_aac encoder destroyed
+21:57:22.132: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:57:22.132: Setting B-frames to 0
+21:57:22.132: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:57:22.132: [obs-nvenc: 'advanced_video_recording'] settings:
+21:57:22.132: 	codec:        HEVC
+21:57:22.132: 	rate_control: CBR
+21:57:22.132: 	bitrate:      50000
+21:57:22.132: 	cqp:          16
+21:57:22.132: 	keyint:       120
+21:57:22.132: 	preset:       p7
+21:57:22.132: 	tuning:       hq
+21:57:22.132: 	multipass:    fullres
+21:57:22.132: 	profile:      main
+21:57:22.132: 	width:        1920
+21:57:22.132: 	height:       1080
+21:57:22.132: 	b-frames:     0
+21:57:22.132: 	lookahead:    false
+21:57:22.132: 	psycho_aq:    true
+21:57:22.132: 
+21:57:22.149: libfdk_aac encoder created
+21:57:22.149: libfdk_aac bitrate: 160, channels: 2
+21:57:22.151: ==== Recording Start ===============================================
+21:57:22.151: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-57-22.mp4'...
+21:57:47.959: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-57-22.mp4' stopped
+21:57:47.959: Output 'adv_file_output': stopping
+21:57:47.959: Output 'adv_file_output': Total frames output: 1542
+21:57:47.959: Output 'adv_file_output': Total drawn frames: 1549
+21:57:47.960: ==== Recording Stop ================================================
+21:57:48.161: libfdk_aac encoder destroyed
+21:58:12.811: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:58:12.811: Setting B-frames to 0
+21:58:12.811: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:58:12.811: [obs-nvenc: 'advanced_video_recording'] settings:
+21:58:12.811: 	codec:        HEVC
+21:58:12.811: 	rate_control: CBR
+21:58:12.811: 	bitrate:      50000
+21:58:12.811: 	cqp:          16
+21:58:12.811: 	keyint:       120
+21:58:12.811: 	preset:       p7
+21:58:12.811: 	tuning:       hq
+21:58:12.811: 	multipass:    fullres
+21:58:12.811: 	profile:      main
+21:58:12.811: 	width:        1920
+21:58:12.811: 	height:       1080
+21:58:12.811: 	b-frames:     0
+21:58:12.811: 	lookahead:    false
+21:58:12.811: 	psycho_aq:    true
+21:58:12.811: 
+21:58:12.827: libfdk_aac encoder created
+21:58:12.827: libfdk_aac bitrate: 160, channels: 2
+21:58:12.829: ==== Recording Start ===============================================
+21:58:12.829: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-58-12.mp4'...
+21:58:35.945: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-58-12.mp4' stopped
+21:58:35.945: Output 'adv_file_output': stopping
+21:58:35.945: Output 'adv_file_output': Total frames output: 1379
+21:58:35.945: Output 'adv_file_output': Total drawn frames: 1387
+21:58:35.945: ==== Recording Stop ================================================
+21:58:36.092: libfdk_aac encoder destroyed
+21:59:08.637: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:59:08.637: Setting B-frames to 0
+21:59:08.637: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:59:08.637: [obs-nvenc: 'advanced_video_recording'] settings:
+21:59:08.637: 	codec:        HEVC
+21:59:08.637: 	rate_control: CBR
+21:59:08.637: 	bitrate:      50000
+21:59:08.637: 	cqp:          16
+21:59:08.637: 	keyint:       120
+21:59:08.637: 	preset:       p7
+21:59:08.637: 	tuning:       hq
+21:59:08.637: 	multipass:    fullres
+21:59:08.637: 	profile:      main
+21:59:08.637: 	width:        1920
+21:59:08.637: 	height:       1080
+21:59:08.637: 	b-frames:     0
+21:59:08.637: 	lookahead:    false
+21:59:08.637: 	psycho_aq:    true
+21:59:08.637: 
+21:59:08.650: libfdk_aac encoder created
+21:59:08.650: libfdk_aac bitrate: 160, channels: 2
+21:59:08.652: ==== Recording Start ===============================================
+21:59:08.652: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-59-08.mp4'...
+21:59:21.928: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-59-08.mp4' stopped
+21:59:21.928: Output 'adv_file_output': stopping
+21:59:21.928: Output 'adv_file_output': Total frames output: 790
+21:59:21.928: Output 'adv_file_output': Total drawn frames: 797
+21:59:21.928: ==== Recording Stop ================================================
+21:59:22.167: libfdk_aac encoder destroyed
+21:59:28.651: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:59:28.651: Setting B-frames to 0
+21:59:28.651: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:59:28.651: [obs-nvenc: 'advanced_video_recording'] settings:
+21:59:28.651: 	codec:        HEVC
+21:59:28.651: 	rate_control: CBR
+21:59:28.651: 	bitrate:      50000
+21:59:28.651: 	cqp:          16
+21:59:28.651: 	keyint:       120
+21:59:28.651: 	preset:       p7
+21:59:28.651: 	tuning:       hq
+21:59:28.651: 	multipass:    fullres
+21:59:28.651: 	profile:      main
+21:59:28.651: 	width:        1920
+21:59:28.651: 	height:       1080
+21:59:28.651: 	b-frames:     0
+21:59:28.651: 	lookahead:    false
+21:59:28.651: 	psycho_aq:    true
+21:59:28.651: 
+21:59:28.664: libfdk_aac encoder created
+21:59:28.664: libfdk_aac bitrate: 160, channels: 2
+21:59:28.667: ==== Recording Start ===============================================
+21:59:28.667: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-59-28.mp4'...
+21:59:41.538: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-59-28.mp4' stopped
+21:59:41.538: Output 'adv_file_output': stopping
+21:59:41.538: Output 'adv_file_output': Total frames output: 765
+21:59:41.538: Output 'adv_file_output': Total drawn frames: 772
+21:59:41.538: ==== Recording Stop ================================================
+21:59:41.678: libfdk_aac encoder destroyed
+21:59:46.571: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+21:59:46.571: Setting B-frames to 0
+21:59:46.571: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+21:59:46.571: [obs-nvenc: 'advanced_video_recording'] settings:
+21:59:46.571: 	codec:        HEVC
+21:59:46.571: 	rate_control: CBR
+21:59:46.571: 	bitrate:      50000
+21:59:46.571: 	cqp:          16
+21:59:46.571: 	keyint:       120
+21:59:46.571: 	preset:       p7
+21:59:46.571: 	tuning:       hq
+21:59:46.571: 	multipass:    fullres
+21:59:46.571: 	profile:      main
+21:59:46.571: 	width:        1920
+21:59:46.571: 	height:       1080
+21:59:46.571: 	b-frames:     0
+21:59:46.571: 	lookahead:    false
+21:59:46.571: 	psycho_aq:    true
+21:59:46.571: 
+21:59:46.583: libfdk_aac encoder created
+21:59:46.583: libfdk_aac bitrate: 160, channels: 2
+21:59:46.585: ==== Recording Start ===============================================
+21:59:46.585: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 21-59-46.mp4'...
+22:00:02.850: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 21-59-46.mp4' stopped
+22:00:02.850: Output 'adv_file_output': stopping
+22:00:02.850: Output 'adv_file_output': Total frames output: 969
+22:00:02.850: Output 'adv_file_output': Total drawn frames: 976
+22:00:02.850: ==== Recording Stop ================================================
+22:00:03.100: libfdk_aac encoder destroyed
+22:03:59.034: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+22:03:59.034: Setting B-frames to 0
+22:03:59.034: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+22:03:59.034: [obs-nvenc: 'advanced_video_recording'] settings:
+22:03:59.034: 	codec:        HEVC
+22:03:59.034: 	rate_control: CBR
+22:03:59.034: 	bitrate:      50000
+22:03:59.034: 	cqp:          16
+22:03:59.034: 	keyint:       120
+22:03:59.034: 	preset:       p7
+22:03:59.034: 	tuning:       hq
+22:03:59.034: 	multipass:    fullres
+22:03:59.034: 	profile:      main
+22:03:59.034: 	width:        1920
+22:03:59.034: 	height:       1080
+22:03:59.034: 	b-frames:     0
+22:03:59.034: 	lookahead:    false
+22:03:59.034: 	psycho_aq:    true
+22:03:59.034: 
+22:03:59.048: libfdk_aac encoder created
+22:03:59.048: libfdk_aac bitrate: 160, channels: 2
+22:03:59.050: ==== Recording Start ===============================================
+22:03:59.050: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 22-03-58.mp4'...
+22:04:23.949: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 22-03-58.mp4' stopped
+22:04:23.949: Output 'adv_file_output': stopping
+22:04:23.949: Output 'adv_file_output': Total frames output: 1487
+22:04:23.949: Output 'adv_file_output': Total drawn frames: 1494
+22:04:23.949: ==== Recording Stop ================================================
+22:04:24.062: libfdk_aac encoder destroyed
+22:04:30.408: [obs-nvenc] Max B-frames setting (2) is more than encoder supports (0).
+22:04:30.408: Setting B-frames to 0
+22:04:30.408: [obs-nvenc: 'advanced_video_recording'] Ignoring Psycho Visual Tuning request since GPU is not capable
+22:04:30.408: [obs-nvenc: 'advanced_video_recording'] settings:
+22:04:30.408: 	codec:        HEVC
+22:04:30.408: 	rate_control: CBR
+22:04:30.408: 	bitrate:      50000
+22:04:30.408: 	cqp:          16
+22:04:30.408: 	keyint:       120
+22:04:30.408: 	preset:       p7
+22:04:30.408: 	tuning:       hq
+22:04:30.408: 	multipass:    fullres
+22:04:30.408: 	profile:      main
+22:04:30.408: 	width:        1920
+22:04:30.408: 	height:       1080
+22:04:30.408: 	b-frames:     0
+22:04:30.408: 	lookahead:    false
+22:04:30.408: 	psycho_aq:    true
+22:04:30.408: 
+22:04:30.421: libfdk_aac encoder created
+22:04:30.421: libfdk_aac bitrate: 160, channels: 2
+22:04:30.423: ==== Recording Start ===============================================
+22:04:30.423: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/sgasg/obs /2024-07-16 22-04-30.mp4'...
+22:04:47.159: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/sgasg/obs /2024-07-16 22-04-30.mp4' stopped
+22:04:47.159: Output 'adv_file_output': stopping
+22:04:47.159: Output 'adv_file_output': Total frames output: 998
+22:04:47.159: Output 'adv_file_output': Total drawn frames: 1004
+22:04:47.160: ==== Recording Stop ================================================
+22:04:47.436: libfdk_aac encoder destroyed
+22:05:17.871: ==== Shutting down ==================================================
+22:05:17.891: pulse-input: Stopped recording from 'audiorelay-speakers.monitor'
+22:05:17.891: pulse-input: Got 464981 packets with 56363915 frames
+22:05:17.892: pulse-input: Stopped recording from 'alsa_input.usb-HP__Inc_HyperX_SoloCast-00.analog-stereo'
+22:05:17.892: pulse-input: Got 128388 packets with 61326529 frames
+22:05:17.896: [pipewire] Stream 0x5629ab3b3b60 state: "unconnected" (error: none)
+22:05:17.902: All scene data cleared
+22:05:17.902: ------------------------------------------------
+22:05:17.914: virtual void QtWaylandClient::QWaylandTextInputv3::zwp_text_input_v3_leave(wl_surface*) Got leave event for surface 0x0 focused surface 0x5629ab62d270
+22:05:17.964: [obs-websocket] [obs_module_unload] Shutting down...
+22:05:17.966: [obs-websocket] [WebSocketServer::ServerRunner] IO thread exited.
+22:05:17.966: [obs-websocket] [WebSocketServer::Stop] Server stopped successfully
+22:05:17.968: Tried to call obs_frontend_remove_event_callback with no callbacks!
+22:05:17.968: [obs-websocket] [obs_module_unload] Finished shutting down.
+22:05:17.969: [linux-vkcapture] plugin unloaded
+22:05:17.982: [Scripting] Total detached callbacks: 0
+22:05:17.982: Freeing OBS context data
+22:05:17.994: == Profiler Results =============================
+22:05:17.994: run_program_init: 1429.05 ms
+22:05:17.995:  ┣OBSApp::AppInit: 16.184 ms
+22:05:17.995:  ┃ ┗OBSApp::InitLocale: 4.349 ms
+22:05:17.995:  ┗OBSApp::OBSInit: 1268.99 ms
+22:05:17.995:    ┣obs_startup: 2.564 ms
+22:05:17.995:    ┗OBSBasic::OBSInit: 1231.58 ms
+22:05:17.995:      ┣OBSBasic::InitBasicConfig: 0.1 ms
+22:05:17.995:      ┣OBSBasic::ResetAudio: 0.23 ms
+22:05:17.995:      ┣OBSBasic::ResetVideo: 72.838 ms
+22:05:17.995:      ┃ ┗obs_init_graphics: 70.862 ms
+22:05:17.995:      ┃   ┗shader compilation: 27.58 ms
+22:05:17.995:      ┣OBSBasic::InitOBSCallbacks: 0.005 ms
+22:05:17.995:      ┣OBSBasic::InitHotkeys: 0.019 ms
+22:05:17.995:      ┣obs_load_all_modules2: 1014.55 ms
+22:05:17.995:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+22:05:17.995:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+22:05:17.995:      ┃ ┣obs_init_module(decklink.so): 0.184 ms
+22:05:17.995:      ┃ ┣obs_init_module(frontend-tools.so): 95.927 ms
+22:05:17.995:      ┃ ┣obs_init_module(image-source.so): 0.012 ms
+22:05:17.995:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+22:05:17.995:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+22:05:17.995:      ┃ ┣obs_init_module(linux-pipewire.so): 7.281 ms
+22:05:17.995:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.003 ms
+22:05:17.995:      ┃ ┣obs_init_module(linux-v4l2.so): 10.743 ms
+22:05:17.995:      ┃ ┣obs_init_module(linux-vkcapture.so): 0.101 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-browser.so): 0.071 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-ffmpeg.so): 30.391 ms
+22:05:17.995:      ┃ ┃ ┗nvenc_check: 22.108 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-filters.so): 0.031 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-libfdk.so): 0.003 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-qsv11.so): 0.91 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-transitions.so): 0.01 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-vst.so): 0.005 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-webrtc.so): 0.009 ms
+22:05:17.995:      ┃ ┣obs_init_module(obs-websocket.so): 4.936 ms
+22:05:17.995:      ┃ ┣obs_init_module(rtmp-services.so): 1.984 ms
+22:05:17.995:      ┃ ┣obs_init_module(sndio.so): 0.004 ms
+22:05:17.995:      ┃ ┣obs_init_module(text-freetype2.so): 0.026 ms
+22:05:17.995:      ┃ ┗obs_init_module(vlc-video.so): 9.365 ms
+22:05:17.995:      ┣OBSBasic::InitService: 3.24 ms
+22:05:17.995:      ┣OBSBasic::ResetOutputs: 0.313 ms
+22:05:17.995:      ┣OBSBasic::CreateHotkeys: 0.032 ms
+22:05:17.995:      ┣OBSBasic::InitPrimitives: 0.131 ms
+22:05:17.995:      ┗OBSBasic::Load: 45.382 ms
+22:05:17.996: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.092 ms, 99th percentile=0.001 ms, 100% below 25 ms
+22:05:17.996: audio_thread(Audio): min=0.01 ms, median=0.031 ms, max=21.432 ms, 99th percentile=0.384 ms
+22:05:17.996:  ┗receive_audio: min=0.001 ms, median=0.218 ms, max=21.399 ms, 99th percentile=0.397 ms, 0.27315 calls per parent call
+22:05:17.996:    ┣buffer_audio: min=0 ms, median=0 ms, max=0.016 ms, 99th percentile=0.001 ms
+22:05:17.996:    ┗do_encode: min=0.034 ms, median=0.217 ms, max=21.397 ms, 99th percentile=0.395 ms
+22:05:17.996:      ┣encode(Track1): min=0.032 ms, median=0.183 ms, max=0.66 ms, 99th percentile=0.309 ms
+22:05:17.996:      ┗send_packet: min=0 ms, median=0.036 ms, max=21.162 ms, 99th percentile=0.144 ms
+22:05:17.996: obs_graphics_thread(16.6667 ms): min=0.162 ms, median=0.408 ms, max=56.194 ms, 99th percentile=1.286 ms, 99.9935% below 16.667 ms
+22:05:17.996:  ┣tick_sources: min=0 ms, median=0.004 ms, max=31.564 ms, 99th percentile=0.016 ms
+22:05:17.996:  ┣output_frame: min=0.044 ms, median=0.092 ms, max=8.603 ms, 99th percentile=0.284 ms
+22:05:17.996:  ┃ ┗gs_context(video->graphics): min=0.044 ms, median=0.092 ms, max=8.602 ms, 99th percentile=0.284 ms
+22:05:17.996:  ┃   ┣render_video: min=0.02 ms, median=0.042 ms, max=1.568 ms, 99th percentile=0.173 ms
+22:05:17.996:  ┃   ┃ ┣render_main_texture: min=0.017 ms, median=0.03 ms, max=1.091 ms, 99th percentile=0.073 ms
+22:05:17.996:  ┃   ┃ ┣render_convert_texture: min=0.031 ms, median=0.051 ms, max=1.518 ms, 99th percentile=0.174 ms, 0.270164 calls per parent call
+22:05:17.996:  ┃   ┃ ┗output_gpu_encoders: min=0 ms, median=0.002 ms, max=0.154 ms, 99th percentile=0.004 ms, 0.270164 calls per parent call
+22:05:17.996:  ┃   ┗gs_flush: min=0.002 ms, median=0.006 ms, max=1.573 ms, 99th percentile=0.024 ms
+22:05:17.996:  ┗render_displays: min=0.018 ms, median=0.206 ms, max=51.77 ms, 99th percentile=0.436 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.822 ms, median=2.043 ms, max=10.188 ms, 99th percentile=2.858 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.82 ms, median=1.966 ms, max=9.883 ms, 99th percentile=2.74 ms
+22:05:17.996:  ┗send_packet: min=0.005 ms, median=0.09 ms, max=8.348 ms, 99th percentile=0.185 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=1.213 ms, median=2.017 ms, max=9.991 ms, 99th percentile=3.092 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=1.209 ms, median=1.955 ms, max=9.987 ms, 99th percentile=3.035 ms
+22:05:17.996:  ┗send_packet: min=0.005 ms, median=0.081 ms, max=3.325 ms, 99th percentile=0.147 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.752 ms, median=2.003 ms, max=9.572 ms, 99th percentile=3.179 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.749 ms, median=1.967 ms, max=9.569 ms, 99th percentile=3.118 ms
+22:05:17.996:  ┗send_packet: min=0.006 ms, median=0.009 ms, max=3.335 ms, 99th percentile=0.141 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.549 ms, median=2.018 ms, max=8.9 ms, 99th percentile=2.988 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.547 ms, median=1.972 ms, max=8.174 ms, 99th percentile=2.905 ms
+22:05:17.996:  ┗send_packet: min=0.003 ms, median=0.064 ms, max=6.898 ms, 99th percentile=0.17 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.537 ms, median=1.996 ms, max=9.246 ms, 99th percentile=2.935 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.535 ms, median=1.961 ms, max=9.242 ms, 99th percentile=2.912 ms
+22:05:17.996:  ┗send_packet: min=0.003 ms, median=0.031 ms, max=0.221 ms, 99th percentile=0.113 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.831 ms, median=2.04 ms, max=9.17 ms, 99th percentile=2.903 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.829 ms, median=1.978 ms, max=9.167 ms, 99th percentile=2.89 ms
+22:05:17.996:  ┗send_packet: min=0.003 ms, median=0.065 ms, max=3.29 ms, 99th percentile=0.132 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.729 ms, median=1.979 ms, max=9.494 ms, 99th percentile=2.645 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.726 ms, median=1.935 ms, max=9.488 ms, 99th percentile=2.614 ms
+22:05:17.996:  ┗send_packet: min=0.003 ms, median=0.053 ms, max=3.137 ms, 99th percentile=0.106 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.563 ms, median=2.046 ms, max=8.916 ms, 99th percentile=2.891 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.559 ms, median=2.007 ms, max=8.911 ms, 99th percentile=2.803 ms
+22:05:17.996:  ┗send_packet: min=0.003 ms, median=0.031 ms, max=0.165 ms, 99th percentile=0.117 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.641 ms, median=2.015 ms, max=8.164 ms, 99th percentile=2.92 ms, 100% below 16.667 ms
+22:05:17.996:  ┣gpu_encode_frame: min=0.639 ms, median=1.944 ms, max=8.16 ms, 99th percentile=2.856 ms
+22:05:17.996:  ┗send_packet: min=0.003 ms, median=0.067 ms, max=3.345 ms, 99th percentile=0.148 ms
+22:05:17.996: obs_gpu_encode_thread(16.6667 ms): min=0.578 ms, median=2.112 ms, max=9.008 ms, 99th percentile=2.766 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.577 ms, median=2.04 ms, max=9.005 ms, 99th percentile=2.666 ms
+22:05:17.997:  ┗send_packet: min=0.004 ms, median=0.069 ms, max=4.06 ms, 99th percentile=0.146 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.622 ms, median=2.051 ms, max=8.891 ms, 99th percentile=2.702 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.621 ms, median=2.012 ms, max=8.887 ms, 99th percentile=2.636 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.035 ms, max=3.214 ms, 99th percentile=0.123 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.514 ms, median=2.026 ms, max=8.529 ms, 99th percentile=2.646 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.512 ms, median=1.997 ms, max=8.526 ms, 99th percentile=2.605 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.007 ms, max=0.403 ms, 99th percentile=0.104 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.586 ms, median=2.094 ms, max=18.795 ms, 99th percentile=2.984 ms, 99.9354% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.584 ms, median=2.033 ms, max=9.201 ms, 99th percentile=2.885 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.066 ms, max=16.896 ms, 99th percentile=0.128 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.584 ms, median=2.038 ms, max=8.964 ms, 99th percentile=2.669 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.583 ms, median=2.01 ms, max=8.96 ms, 99th percentile=2.63 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.008 ms, max=3.166 ms, 99th percentile=0.107 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.57 ms, median=1.958 ms, max=8.954 ms, 99th percentile=2.993 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.568 ms, median=1.907 ms, max=8.95 ms, 99th percentile=2.859 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.059 ms, max=3.233 ms, 99th percentile=0.122 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.581 ms, median=2.012 ms, max=9.057 ms, 99th percentile=2.782 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.578 ms, median=1.968 ms, max=9.054 ms, 99th percentile=2.66 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.063 ms, max=0.38 ms, 99th percentile=0.119 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.558 ms, median=2.073 ms, max=8.331 ms, 99th percentile=2.93 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.556 ms, median=2.033 ms, max=8.328 ms, 99th percentile=2.86 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.04 ms, max=0.271 ms, 99th percentile=0.125 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.553 ms, median=2.031 ms, max=9.563 ms, 99th percentile=2.653 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.55 ms, median=2.004 ms, max=9.558 ms, 99th percentile=2.591 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.007 ms, max=0.205 ms, 99th percentile=0.116 ms
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=0.517 ms, median=2.054 ms, max=8.674 ms, 99th percentile=2.903 ms, 100% below 16.667 ms
+22:05:17.997:  ┣gpu_encode_frame: min=0.516 ms, median=1.997 ms, max=8.671 ms, 99th percentile=2.854 ms
+22:05:17.997:  ┗send_packet: min=0.003 ms, median=0.065 ms, max=1.334 ms, 99th percentile=0.137 ms
+22:05:17.997: =================================================
+22:05:17.997: == Profiler Time Between Calls ==================
+22:05:17.997: obs_hotkey_thread(25 ms): min=25.008 ms, median=25.057 ms, max=30.183 ms, 99.9549% within ±2% of 25 ms (0% lower, 0.0450592% higher)
+22:05:17.997: obs_graphics_thread(16.6667 ms): min=1.284 ms, median=16.667 ms, max=56.199 ms, 99.9192% within ±2% of 16.667 ms (0.0403993% lower, 0.0403993% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.616 ms, median=16.668 ms, max=17.6 ms, 97.3684% within ±2% of 16.667 ms (1.26706% lower, 1.36452% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.577 ms, median=16.666 ms, max=17.25 ms, 98.8124% within ±2% of 16.667 ms (0.475059% lower, 0.712589% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=12.747 ms, median=16.666 ms, max=20.521 ms, 98.1589% within ±2% of 16.667 ms (0.872093% lower, 0.968992% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=16.373 ms, median=16.666 ms, max=16.852 ms, 100% within ±2% of 16.667 ms (0% lower, 0% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.738 ms, median=16.666 ms, max=17.56 ms, 99.4709% within ±2% of 16.667 ms (0.26455% lower, 0.26455% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=16.3 ms, median=16.666 ms, max=17.037 ms, 99.7593% within ±2% of 16.667 ms (0.120337% lower, 0.120337% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.335 ms, median=16.666 ms, max=18.103 ms, 96.573% within ±2% of 16.667 ms (1.7135% lower, 1.7135% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.664 ms, median=16.666 ms, max=17.629 ms, 96.0474% within ±2% of 16.667 ms (1.97628% lower, 1.97628% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.68 ms, median=16.666 ms, max=17.643 ms, 99.6999% within ±2% of 16.667 ms (0.120048% lower, 0.180072% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.502 ms, median=16.666 ms, max=17.862 ms, 96.8148% within ±2% of 16.667 ms (1.55556% lower, 1.62963% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.558 ms, median=16.666 ms, max=17.776 ms, 96.8601% within ±2% of 16.667 ms (1.56997% lower, 1.56997% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.673 ms, median=16.666 ms, max=17.67 ms, 96.8047% within ±2% of 16.667 ms (1.59763% lower, 1.59763% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=14.307 ms, median=16.666 ms, max=18.797 ms, 99.7413% within ±2% of 16.667 ms (0.129366% lower, 0.129366% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.683 ms, median=16.666 ms, max=17.665 ms, 96.7486% within ±2% of 16.667 ms (1.5896% lower, 1.66185% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=16.402 ms, median=16.666 ms, max=17.006 ms, 99.8741% within ±2% of 16.667 ms (0% lower, 0.125945% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.409 ms, median=16.666 ms, max=17.919 ms, 96.8791% within ±2% of 16.667 ms (1.56047% lower, 1.56047% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=16.442 ms, median=16.666 ms, max=16.924 ms, 100% within ±2% of 16.667 ms (0% lower, 0% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.41 ms, median=16.666 ms, max=17.977 ms, 96.9148% within ±2% of 16.667 ms (1.54259% lower, 1.54259% higher)
+22:05:17.997: obs_gpu_encode_thread(16.6667 ms): min=15.38 ms, median=16.666 ms, max=17.968 ms, 99.6008% within ±2% of 16.667 ms (0.199601% lower, 0.199601% higher)
+22:05:17.997: =================================================
+22:05:18.024: Number of memory leaks: 0

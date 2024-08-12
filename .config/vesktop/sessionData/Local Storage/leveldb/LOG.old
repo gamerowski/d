@@ -1,0 +1,5 @@
+2024/07/14-16:24:58.278 29b9 Reusing MANIFEST /home/sgasg/.config/vesktop/sessionData/Local Storage/leveldb/MANIFEST-000001
+2024/07/14-16:24:58.281 29b9 Recovering log #335
+2024/07/14-16:24:58.281 29b9 Reusing old log /home/sgasg/.config/vesktop/sessionData/Local Storage/leveldb/000335.log 
+2024/07/14-16:25:26.307 29ba Level-0 table #340: started
+2024/07/14-16:25:26.319 29ba Level-0 table #340: 631994 bytes OK

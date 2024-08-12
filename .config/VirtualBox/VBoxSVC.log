@@ -1,0 +1,211 @@
+00:00:00.002939 main     VirtualBox XPCOM Server 7.0.18_SUSE r162988 linux.amd64 (no date no time) release log
+00:00:00.002941 main     Log opened 2024-08-12T01:42:51.150375000Z
+00:00:00.002941 main     Build Type: release
+00:00:00.002943 main     OS Product: Linux
+00:00:00.002943 main     OS Release: 6.10.3-1-default
+00:00:00.002943 main     OS Version: #1 SMP PREEMPT_DYNAMIC Sun Aug  4 06:37:13 UTC 2024 (ba01e0e)
+00:00:00.002958 main     DMI Product Name: To Be Filled By O.E.M.
+00:00:00.002964 main     DMI Product Version: To Be Filled By O.E.M.
+00:00:00.002968 main     Firmware type: UEFI
+00:00:00.003008 main     Secure Boot: Disabled
+00:00:00.003030 main     Host RAM: 32020MB (31.2GB) total, 28038MB (27.3GB) available
+00:00:00.003031 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.003031 main     Process ID: 5301
+00:00:00.003031 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.003736 main     IPC socket path: /tmp/.vbox-sgasg-ipc/ipcd
+00:00:00.105898 nspr-2   VirtualBox: object creation starts
+00:00:00.105965 nspr-2   Home directory: '/home/sgasg/.config/VirtualBox'
+00:00:00.106091 nspr-2   Loading settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.107401 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.114693 nspr-2   HostDnsMonitor: initializing
+00:00:00.114787 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.114800 nspr-2   HostDnsMonitor: updating information
+00:00:00.114809 nspr-2   HostDnsMonitor: old information
+00:00:00.114813 nspr-2     no server entries
+00:00:00.114817 nspr-2     no domain set
+00:00:00.114821 nspr-2     no search string entries
+00:00:00.114825 nspr-2   HostDnsMonitor: new information
+00:00:00.114829 nspr-2     server 1: 192.168.1.1
+00:00:00.114833 nspr-2     no domain set
+00:00:00.114837 nspr-2     no search string entries
+00:00:00.115991 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.116047 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.116852 nspr-2   Loading settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:00:00.117707 nspr-2   VirtualBox: object created
+00:00:00.859793 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.599911 nspr-4   Launched VM: 3154125040 pid: 5390 (0x150e) frontend: GUI/Qt name: cachyos
+00:00:04.618933 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.767598 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:05.114546 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:05.128892 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:05.186837 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:00:05.344827 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:05.372317 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:47.389602 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:00:48.192287 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:00:50.352754 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:01:00.478449 main     Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:00.496362 main     Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:00.516752 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:01:00.856152 Watcher  Reaper: Pid 5390 (0x150e) was signalled: SIGKILL (9 / 0x9)
+00:01:07.048909 nspr-6   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:07.062702 nspr-6   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:07.062748 nspr-6   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:07.073244 nspr-6   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:07.076463 DeleteVM Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:07.132277 DeleteVM Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:10.132431 nspr-8   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:10.499635 nspr-8   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:10.506442 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {4aa2a646-2ae8-4bb7-aaf1-8288feb03158}}, preserve=false aResultDetail=0
+00:01:10.515915 nspr-4   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {4aa2a646-2ae8-4bb7-aaf1-8288feb03158}}, preserve=false aResultDetail=0
+00:01:11.637548 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:01:17.354307 nspr-4   Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
+00:01:31.689407 createBase Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:31.701003 createBase Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:31.704539 nspr-2   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:31.713873 nspr-2   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:31.713949 nspr-2   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:31.722717 nspr-2   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:31.723984 nspr-6   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:31.733714 nspr-6   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:31.734669 nspr-8   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:31.745843 nspr-8   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:31.760777 nspr-2   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:31.769502 nspr-2   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:32.107818 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:33.482628 nspr-5   Launched VM: 3154125200 pid: 5813 (0x16b5) frontend: GUI/Qt name: cachyos
+00:01:33.503489 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:33.626857 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:01:33.954421 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:01:33.985405 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:34.077731 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:01:34.132343 nspr-7   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:34.134587 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:01:34.160566 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:34.520309 nspr-7   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:34.531247 nspr-7   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:34.545267 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:41.447510 nspr-2   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:41.456788 nspr-2   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:41.471140 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:01:46.092937 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:01:47.979237 nspr-6   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:47.988597 nspr-6   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:48.009313 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:01:49.202142 nspr-5   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:49.210970 nspr-5   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:49.213528 nspr-9   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={Saved screenshot thumbnail data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:01:49.215178 SaveState Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:01:49.224579 SaveState Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:01:49.237221 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:01:50.721592 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:01:56.327751 nspr-3   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:56.337410 nspr-3   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:56.337462 nspr-3   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:56.347185 nspr-3   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:56.350196 DeleteVM Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:56.359868 DeleteVM Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:56.360705 nspr-8   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:01:56.375941 nspr-8   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:01:56.380042 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {d2daefc7-0e8d-45e9-a3ff-9c5942629233}}, preserve=false aResultDetail=0
+00:01:56.387206 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7682d5eb-f00e-44f1-8ca2-99d08b1cd607} aComponent={VirtualBoxWrap} aText={Could not find a registered machine with UUID {d2daefc7-0e8d-45e9-a3ff-9c5942629233}}, preserve=false aResultDetail=0
+00:01:57.624444 nspr-9   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={aac6c7cb-a371-4c58-ab51-0616896b2f2c} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:02:05.723046 nspr-9   Unattended: RTVfsQueryPathInfo(, '\OS2IMAGE/DISK_0/OS2LDR' (from OS2SE20.SRC),) -> VERR_PATH_NOT_FOUND, fMode=0x0
+00:02:28.951678 createBase Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:28.960341 createBase Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:02:28.963444 nspr-4   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:02:28.971188 nspr-4   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:02:28.971241 nspr-4   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:28.981558 nspr-4   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:02:28.982646 nspr-6   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:28.992150 nspr-6   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:02:28.992989 nspr-3   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:02:29.000607 nspr-3   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:02:29.016001 nspr-9   Saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:02:29.023180 nspr-9   Finished saving settings file "/home/sgasg/.config/VirtualBox/VirtualBox.xml"
+00:02:29.359392 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:30.313687 nspr-7   Launched VM: 3154143568 pid: 6333 (0x18bd) frontend: GUI/Qt name: cachyos
+00:02:30.330666 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:30.455438 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:02:30.778002 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:02:30.809150 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:02:30.890055 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:02:30.972171 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:02:30.972818 nspr-9   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:02:30.997261 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:02:31.348944 nspr-6   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:02:31.359957 nspr-6   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:02:31.373252 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:02:35.127700 nspr-8   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:02:35.138313 nspr-8   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:02:35.149643 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:05:04.888968 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:05:04.897511 nspr-9   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:05:04.905601 nspr-9   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:05:04.925428 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:10:45.843361 main     Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:10:45.969765 Watcher  Reaper: Pid 6333 (0x18bd) was signalled: SIGTERM (15 / 0xf)
+00:10:45.997931 main     Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:10:46.017366 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:10:48.830818 nspr-5   Launched VM: 3154143104 pid: 10723 (0x29e3) frontend: GUI/Qt name: cachyos
+00:10:48.845279 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:10:48.971317 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Aborted)}, preserve=false aResultDetail=0
+00:10:49.292032 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:10:49.309206 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:10:49.410455 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:10:49.474473 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:10:49.475022 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:10:49.500175 nspr-7   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:11:01.470385 nspr-9   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:11:01.479948 nspr-9   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:11:01.481165 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:11:01.491753 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:11:06.426333 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:11:10.567831 nspr-6   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:11:10.590543 nspr-6   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:11:10.614944 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saving)}, preserve=false aResultDetail=0
+00:11:10.728057 nspr-8   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:11:10.761645 nspr-8   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:11:10.763054 SaveState Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:11:10.786265 SaveState Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:11:10.802395 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:11:11.742896 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:11:13.155569 nspr-3   Launched VM: 3154133264 pid: 10989 (0x2aed) frontend: GUI/Qt name: cachyos
+00:11:13.167969 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:11:13.295744 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Saved)}, preserve=false aResultDetail=0
+00:11:13.613661 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:11:13.736210 nspr-2   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Restoring)}, preserve=false aResultDetail=0
+00:11:13.769349 nspr-2   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:11:13.788561 nspr-2   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:11:13.798517 nspr-2   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:11:13.827190 nspr-8   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:11:17.421637 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:11:19.023600 nspr-7   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:11:19.033466 nspr-7   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:11:19.060014 nspr-9   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:11:19.124901 nspr-8   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:11:19.134711 nspr-8   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:11:19.150225 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:11:20.139720 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:11:21.588848 nspr-9   Launched VM: 3154133024 pid: 11109 (0x2b65) frontend: GUI/Qt name: cachyos
+00:11:21.607917 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:11:21.737216 nspr-6   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:11:22.066933 nspr-6   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:11:22.083774 nspr-6   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:11:22.189373 nspr-5   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Starting)}, preserve=false aResultDetail=0
+00:11:22.239500 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:11:22.266666 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Running)}, preserve=false aResultDetail=0
+00:13:13.565993 nspr-3   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Paused)}, preserve=false aResultDetail=0
+00:13:14.514024 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is Stopping)}, preserve=false aResultDetail=0
+00:13:14.564825 nspr-3   Saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox" with version "1.19-linux"
+00:13:14.596652 nspr-3   Finished saving settings file "/home/sgasg/VirtualBox VMs/cachyos/cachyos.vbox"
+00:13:14.610700 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:13:15.584910 nspr-4   ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={300763af-5d6b-46e6-aa96-273eac15538a} aComponent={MachineWrap} aText={The machine is not mutable (state is PoweredOff)}, preserve=false aResultDetail=0
+00:13:26.075011 nspr-8   
+00:13:26.075012 nspr-8   !!Assertion Failed!!
+00:13:26.075012 nspr-8   Expression: state <= 1 && ( (state == 0 && count == 0) || (state == 1 && count < PR_UINT32_MAX/2))
+00:13:26.075013 nspr-8   Location  : /home/abuild/rpmbuild/BUILD/VirtualBox-7.0.18/src/libs/xpcom18a4/ipc/ipcd/extensions/dconnect/src/ipcDConnectService.cpp(3433) virtual nsrefcnt ipcDConnectService::AddRef()
+00:13:26.075014 nspr-8   Stack     :
+00:13:26.075014 nspr-8   00007f15ca9733c5 VBoxRT.so!RTAssertMsg2V+0x11b (rva:0x1733c5)
+00:13:26.075014 nspr-8   
+00:13:26.075035 nspr-8   AddRef: illegal refcnt=3221225469 state=2
